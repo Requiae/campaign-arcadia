@@ -13,8 +13,6 @@ document.addEventListener("nav", () => {
     return
   }
 
-  const urlPrefix = mapElement.dataset.url ?? "";
-
   const markers = document.querySelectorAll("div.marker");
 
   //const bounds: LatLngBoundsExpression = [[0, 0], [1064, 1200]];
@@ -36,8 +34,7 @@ document.addEventListener("nav", () => {
   }
 
   function markerOnClick(event: any) {
-    console.log(event.target.options.url)
-    window.location.href = `/${urlPrefix}/${event.target.options.url}`
+    window.location.href = `${event.target.options.url}`
   }
 
   function addMarker(markerData: MarkerDataSet) {

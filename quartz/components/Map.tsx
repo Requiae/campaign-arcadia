@@ -38,12 +38,12 @@ export default ((ignore: boolean = false) => {
     }
   }
 
-  const MarkerComponent = (marker: Marker, index: number) => {
+  const MarkerComponent = (marker: Marker, index: number, prefix: string) => {
     return (<div
       class={"marker"}
       key={index}
       data-name={marker.name}
-      data-link={marker.link}
+      data-link={`https://${prefix}/${marker.link}`}
       data-pos-x={marker.position.x}
       data-pos-y={marker.position.y}
     />);
@@ -56,17 +56,17 @@ export default ((ignore: boolean = false) => {
       )
     }
 
+    const urlPrefix = props.cfg.baseUrl ?? "";
+
     const markers = props.allFiles
       .map((file) => buildMarker(file))
       .filter((marker) => marker !== undefined)
     ;
 
-    const urlPrefix = props.cfg.baseUrl?.split("/")[1];
-
     return (
       <div>
-        <div id="leaflet-map" data-url={urlPrefix}/>
-        {markers.map((object, i) => MarkerComponent(object, i))}
+        <div id="leaflet-map"/>
+        {markers.map((object, i) => MarkerComponent(object, i, urlPrefix))}
       </div>
     )
   }
