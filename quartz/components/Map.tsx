@@ -16,7 +16,7 @@ interface Marker {
   },
 }
 
-export default (() => {
+export default ((ignore: boolean = false) => {
   function buildMarker(file: QuartzPluginData): Marker | undefined {
     const {slug, frontmatter} = file;
     if (
@@ -27,8 +27,6 @@ export default (() => {
     ) {
       return undefined;
     }
-
-    console.log(file)
 
     return {
       name: frontmatter.title,
@@ -52,8 +50,7 @@ export default (() => {
   }
 
   const Map: QuartzComponent = (props: QuartzComponentProps) => {
-    console.log(props.cfg)
-    if (!props.fileData.frontmatter?.map) {
+    if (!props.fileData.frontmatter || !props.fileData.frontmatter?.map || ignore) {
       return (
         <></>
       )

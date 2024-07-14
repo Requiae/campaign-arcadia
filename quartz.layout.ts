@@ -21,7 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.MapConstructor(),
+    Component.MapConstructor(true),
   ],
   left: [
     Component.PageTitle(),
