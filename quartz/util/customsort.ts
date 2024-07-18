@@ -2,9 +2,9 @@ import { Options } from "../components/ExplorerNode";
 
 export const sortFn: Options["sortFn"] = (a, b) => {
     const nameOrderMap: Record<string, number> = {
-        "Glimbourne": 100,
+        "Arcadia": 100,
         "People": 200,
-        "Facilities": 300,
+        "Journals": 300,
         "Creatures": 300,
         "Items": 300,
     }

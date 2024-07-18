@@ -82,6 +82,7 @@ export default ((userOpts?: Partial<Options>) => {
     fileData,
   }: QuartzComponentProps) => {
     constructFileTree(allFiles)
+    console.log(fileTree)
     return (
       <div class={classNames(displayClass, "explorer")}>
         <button
