@@ -1,4 +1,4 @@
-import { Translation } from "./definition"
+import { Translation } from "./definition";
 
 export default {
   propertyDefaults: {
@@ -79,4 +79,4 @@ export default {
       totalTags: ({ count }) => `Összesen ${count} címke található.`,
     },
   },
-} as const satisfies Translation
+} as const satisfies Translation;

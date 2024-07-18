@@ -1,41 +1,41 @@
 export default class DepGraph<T> {
   // node: incoming and outgoing edges
-  _graph = new Map<T, { incoming: Set<T>; outgoing: Set<T> }>()
+  _graph = new Map<T, { incoming: Set<T>; outgoing: Set<T> }>();
 
   constructor() {
-    this._graph = new Map()
+    this._graph = new Map();
   }
 
   export(): Object {
     return {
       nodes: this.nodes,
       edges: this.edges,
-    }
+    };
   }
 
   toString(): string {
-    return JSON.stringify(this.export(), null, 2)
+    return JSON.stringify(this.export(), null, 2);
   }
 
   // BASIC GRAPH OPERATIONS
 
   get nodes(): T[] {
-    return Array.from(this._graph.keys())
+    return Array.from(this._graph.keys());
   }
 
   get edges(): [T, T][] {
-    let edges: [T, T][] = []
-    this.forEachEdge((edge) => edges.push(edge))
-    return edges
+    let edges: [T, T][] = [];
+    this.forEachEdge((edge) => edges.push(edge));
+    return edges;
   }
 
   hasNode(node: T): boolean {
-    return this._graph.has(node)
+    return this._graph.has(node);
   }
 
   addNode(node: T): void {
     if (!this._graph.has(node)) {
-      this._graph.set(node, { incoming: new Set(), outgoing: new Set() })
+      this._graph.set(node, { incoming: new Set(), outgoing: new Set() });
     }
   }
 
@@ -44,62 +44,62 @@ export default class DepGraph<T> {
     if (this._graph.has(node)) {
       // first remove all edges so other nodes don't have references to this node
       for (const target of this._graph.get(node)!.outgoing) {
-        this.removeEdge(node, target)
+        this.removeEdge(node, target);
       }
       for (const source of this._graph.get(node)!.incoming) {
-        this.removeEdge(source, node)
+        this.removeEdge(source, node);
       }
-      this._graph.delete(node)
+      this._graph.delete(node);
     }
   }
 
   forEachNode(callback: (node: T) => void): void {
     for (const node of this._graph.keys()) {
-      callback(node)
+      callback(node);
     }
   }
 
   hasEdge(from: T, to: T): boolean {
-    return Boolean(this._graph.get(from)?.outgoing.has(to))
+    return Boolean(this._graph.get(from)?.outgoing.has(to));
   }
 
   addEdge(from: T, to: T): void {
-    this.addNode(from)
-    this.addNode(to)
+    this.addNode(from);
+    this.addNode(to);
 
-    this._graph.get(from)!.outgoing.add(to)
-    this._graph.get(to)!.incoming.add(from)
+    this._graph.get(from)!.outgoing.add(to);
+    this._graph.get(to)!.incoming.add(from);
   }
 
   removeEdge(from: T, to: T): void {
     if (this._graph.has(from) && this._graph.has(to)) {
-      this._graph.get(from)!.outgoing.delete(to)
-      this._graph.get(to)!.incoming.delete(from)
+      this._graph.get(from)!.outgoing.delete(to);
+      this._graph.get(to)!.incoming.delete(from);
     }
   }
 
   // returns -1 if node does not exist
   outDegree(node: T): number {
-    return this.hasNode(node) ? this._graph.get(node)!.outgoing.size : -1
+    return this.hasNode(node) ? this._graph.get(node)!.outgoing.size : -1;
   }
 
   // returns -1 if node does not exist
   inDegree(node: T): number {
-    return this.hasNode(node) ? this._graph.get(node)!.incoming.size : -1
+    return this.hasNode(node) ? this._graph.get(node)!.incoming.size : -1;
   }
 
   forEachOutNeighbor(node: T, callback: (neighbor: T) => void): void {
-    this._graph.get(node)?.outgoing.forEach(callback)
+    this._graph.get(node)?.outgoing.forEach(callback);
   }
 
   forEachInNeighbor(node: T, callback: (neighbor: T) => void): void {
-    this._graph.get(node)?.incoming.forEach(callback)
+    this._graph.get(node)?.incoming.forEach(callback);
   }
 
   forEachEdge(callback: (edge: [T, T]) => void): void {
     for (const [source, { outgoing }] of this._graph.entries()) {
       for (const target of outgoing) {
-        callback([source, target])
+        callback([source, target]);
       }
     }
   }
@@ -109,10 +109,10 @@ export default class DepGraph<T> {
   // Add all nodes and edges from other graph to this graph
   mergeGraph(other: DepGraph<T>): void {
     other.forEachEdge(([source, target]) => {
-      this.addNode(source)
-      this.addNode(target)
-      this.addEdge(source, target)
-    })
+      this.addNode(source);
+      this.addNode(target);
+      this.addEdge(source, target);
+    });
   }
 
   // For the node provided:
@@ -120,37 +120,37 @@ export default class DepGraph<T> {
   // If an incoming edge was added in other, it is added in this graph
   // If an incoming edge was deleted in other, it is deleted in this graph
   updateIncomingEdgesForNode(other: DepGraph<T>, node: T): void {
-    this.addNode(node)
+    this.addNode(node);
 
     // Add edge if it is present in other
     other.forEachInNeighbor(node, (neighbor) => {
-      this.addEdge(neighbor, node)
-    })
+      this.addEdge(neighbor, node);
+    });
 
     // For node provided, remove incoming edge if it is absent in other
     this.forEachEdge(([source, target]) => {
       if (target === node && !other.hasEdge(source, target)) {
-        this.removeEdge(source, target)
+        this.removeEdge(source, target);
       }
-    })
+    });
   }
 
   // Remove all nodes that do not have any incoming or outgoing edges
   // A node may be orphaned if the only node pointing to it was removed
   removeOrphanNodes(): Set<T> {
-    let orphanNodes = new Set<T>()
+    let orphanNodes = new Set<T>();
 
     this.forEachNode((node) => {
       if (this.inDegree(node) === 0 && this.outDegree(node) === 0) {
-        orphanNodes.add(node)
+        orphanNodes.add(node);
       }
-    })
+    });
 
     orphanNodes.forEach((node) => {
-      this.removeNode(node)
-    })
+      this.removeNode(node);
+    });
 
-    return orphanNodes
+    return orphanNodes;
   }
 
   // Get all leaf nodes (i.e. destination paths) reachable from the node provided
@@ -158,34 +158,34 @@ export default class DepGraph<T> {
   //                     D ---^
   // and the node is B, this function returns [C]
   getLeafNodes(node: T): Set<T> {
-    let stack: T[] = [node]
-    let visited = new Set<T>()
-    let leafNodes = new Set<T>()
+    let stack: T[] = [node];
+    let visited = new Set<T>();
+    let leafNodes = new Set<T>();
 
     // DFS
     while (stack.length > 0) {
-      let node = stack.pop()!
+      let node = stack.pop()!;
 
       // If the node is already visited, skip it
       if (visited.has(node)) {
-        continue
+        continue;
       }
-      visited.add(node)
+      visited.add(node);
 
       // Check if the node is a leaf node (i.e. destination path)
       if (this.outDegree(node) === 0) {
-        leafNodes.add(node)
+        leafNodes.add(node);
       }
 
       // Add all unvisited neighbors to the stack
       this.forEachOutNeighbor(node, (neighbor) => {
         if (!visited.has(neighbor)) {
-          stack.push(neighbor)
+          stack.push(neighbor);
         }
-      })
+      });
     }
 
-    return leafNodes
+    return leafNodes;
   }
 
   // Get all ancestors of the leaf nodes reachable from the node provided
@@ -193,36 +193,36 @@ export default class DepGraph<T> {
   //                     D ---^
   // and the node is B, this function returns [A, B, D]
   getLeafNodeAncestors(node: T): Set<T> {
-    const leafNodes = this.getLeafNodes(node)
-    let visited = new Set<T>()
-    let upstreamNodes = new Set<T>()
+    const leafNodes = this.getLeafNodes(node);
+    let visited = new Set<T>();
+    let upstreamNodes = new Set<T>();
 
     // Backwards DFS for each leaf node
     leafNodes.forEach((leafNode) => {
-      let stack: T[] = [leafNode]
+      let stack: T[] = [leafNode];
 
       while (stack.length > 0) {
-        let node = stack.pop()!
+        let node = stack.pop()!;
 
         if (visited.has(node)) {
-          continue
+          continue;
         }
-        visited.add(node)
+        visited.add(node);
         // Add node if it's not a leaf node (i.e. destination path)
         // Assumes destination file cannot depend on another destination file
         if (this.outDegree(node) !== 0) {
-          upstreamNodes.add(node)
+          upstreamNodes.add(node);
         }
 
         // Add all unvisited parents to the stack
         this.forEachInNeighbor(node, (parentNode) => {
           if (!visited.has(parentNode)) {
-            stack.push(parentNode)
+            stack.push(parentNode);
           }
-        })
+        });
       }
-    })
+    });
 
-    return upstreamNodes
+    return upstreamNodes;
   }
 }

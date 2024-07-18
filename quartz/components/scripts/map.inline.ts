@@ -1,22 +1,25 @@
-import { CRS, imageOverlay, LatLngBoundsExpression, map, marker } from "leaflet"
+import { CRS, imageOverlay, LatLngBoundsExpression, map, marker } from "leaflet";
 
 interface MarkerDataSet {
-  name: string,
-  link: string,
-  posX: string,
-  posY: string,
+  name: string;
+  link: string;
+  posX: string;
+  posY: string;
 }
 
 document.addEventListener("nav", () => {
-  const mapElement = document.getElementById("leaflet-map")
+  const mapElement = document.getElementById("leaflet-map");
   if (!mapElement) {
-    return
+    return;
   }
 
   const markers = document.querySelectorAll("div.marker");
 
   //const bounds: LatLngBoundsExpression = [[0, 0], [1064, 1200]];
-  const bounds: LatLngBoundsExpression = [[0, 0], [768, 1024]];
+  const bounds: LatLngBoundsExpression = [
+    [0, 0],
+    [768, 1024],
+  ];
   const mapItem = map("leaflet-map", {
     crs: CRS.Simple,
     maxBounds: bounds,
@@ -29,19 +32,20 @@ document.addEventListener("nav", () => {
   mapItem.fitBounds(bounds);
 
   for (const marker of markers) {
+    // eslint-disable-next-line
     const markerData = marker.dataset as MarkerDataSet;
     addMarker(markerData);
   }
 
   function markerOnClick(event: any) {
-    window.location.href = `${event.target.options.url}`
+    window.location.href = `${event.target.options.url}`;
   }
 
   function addMarker(markerData: MarkerDataSet) {
-    console.log(markerData)
-    marker(
-      [parseInt(markerData.posY), parseInt(markerData.posX)],
-      {url: markerData.link},
-    ).bindTooltip(markerData.name).on("click", markerOnClick).addTo(mapItem);
+    // eslint-disable-next-line
+    marker([parseInt(markerData.posY), parseInt(markerData.posX)], { url: markerData.link })
+      .bindTooltip(markerData.name)
+      .on("click", markerOnClick)
+      .addTo(mapItem);
   }
-})
+});

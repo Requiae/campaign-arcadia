@@ -5,15 +5,15 @@ tags:
   - introduction
 ---
 
-The church of the Lantern has finally restored peace in the northern reaches of Lux, where it had fought a civil war no more than 10 years ago. However, this peace has come at a price. The church no longer holds full religious authority over all its peoples, having to concede that other people may worship local gods and spirits if they pay a small tax. In an attempt to regain some of its legitimacy, it has sent many expeditions around the world to find definitive proof of the truth of their story, and perhaps some forgotten religious relics that were spread in the Great Expansion. It has sent your particular group to the [[The Island|island of Arcadia]], where it has also sent some previous expeditions that haven't returned yet. Are you simply hellbent on [[The Island|Arcadia's]] exploration? Looking for glory, gold, or some specific thing on the island? Are you an outcast looking for a reason to leave home and find camaraderie on a crew? Or are you a dissident impressed by the church for political reasons? Regardless, you embark to explore the place that no one has returned from... yet.
+The church of the Lantern has finally restored peace in the northern reaches of Lux, where it had fought a civil war no more than 10 years ago. However, this peace has come at a price. The church no longer holds full religious authority over all its peoples, having to concede that other people may worship local gods and spirits if they pay a small tax. In an attempt to regain some of its legitimacy, it has sent many expeditions around the world to find definitive proof of the truth of their story, and perhaps some forgotten religious relics that were spread in the Great Expansion. It has sent your particular group to the [[content/Arcadia/Index|island of Arcadia]], where it has also sent some previous expeditions that haven't returned yet. Are you simply hellbent on [[The Island|Arcadia's]] exploration? Looking for glory, gold, or some specific thing on the island? Are you an outcast looking for a reason to leave home and find camaraderie on a crew? Or are you a dissident impressed by the church for political reasons? Regardless, you embark to explore the place that no one has returned from... yet.
 
 ## Table of Contents
 
-* Character creation info
-* History
-* The state of Lux and the world
-* The Church of the Lantern and the Dream
-* Homebrew, House rules and Arcana
+- Character creation info
+- History
+- The state of Lux and the world
+- The Church of the Lantern and the Dream
+- Homebrew, House rules and Arcana
 
 ## Character creation information
 
@@ -21,12 +21,12 @@ I know you. This document is long, and you don't feel like reading all the exten
 
 As for the content, you're allowed:
 
-* Player Handbook: all of it, except the half-orc which will be replaced by the homebrew orc race, and except the variant human (see character creation).
-* Xanathar's Guide to Everything: everything from chapter 1 (character options) and chapter 3 (spells).
-* Tasha's Cauldron of Everything: everything from chapter 1 (character options) except the optional class features should be discussed first (as normal), and everything from chapter 3 (spells).
-* Volo's Guide to Monsters: Aasimar, Firbolg, Goliath's and (under monstrous races) Goblin become available as player races.
-* Mordekainen's Tome of Foes: Tiefling infernal legacies, the Eladrin Elf subrace and the Duergar Dwarf subrace become available as player subraces.
-* The homebrew section (of course).
+- Player Handbook: all of it, except the half-orc which will be replaced by the homebrew orc race, and except the variant human (see character creation).
+- Xanathar's Guide to Everything: everything from chapter 1 (character options) and chapter 3 (spells).
+- Tasha's Cauldron of Everything: everything from chapter 1 (character options) except the optional class features should be discussed first (as normal), and everything from chapter 3 (spells).
+- Volo's Guide to Monsters: Aasimar, Firbolg, Goliath's and (under monstrous races) Goblin become available as player races.
+- Mordekainen's Tome of Foes: Tiefling infernal legacies, the Eladrin Elf subrace and the Duergar Dwarf subrace become available as player subraces.
+- The homebrew section (of course).
 
 Character creation: We will start this campaign at level 3. Stats are assigned through pathfinder point buy (see table below). You may take feats and/or multiclass. In addition, each player may start the game with a free feat.
 
@@ -59,7 +59,7 @@ The Church of the Lantern has set up many labour programmes in the most hard-hit
 
 The state of Lux covers an area the size of approximately all of western and northern Europe. It is the only major political entity on its continent, although because of the high amounts of autonomy of its subjects it almost functions more as a super-governmental organization like the EU or the late Holy Roman Empire. It has a population of 56,740,401.
 
-Lux' head of state is called the Keeper of the Light. The Church of the Lantern is called the Keeper of the Dream. Both are elected by the council of high priests of the Church. Its councils of ministers are also elected by the high priests. Its top-level bureaucrats are assigned by merit, but must still be members of the Church. 
+Lux' head of state is called the Keeper of the Light. The Church of the Lantern is called the Keeper of the Dream. Both are elected by the council of high priests of the Church. Its councils of ministers are also elected by the high priests. Its top-level bureaucrats are assigned by merit, but must still be members of the Church.
 
 The human language has been designated as "the common tongue" by the state. Local languages are taught alongside it, but it can be difficult to find teachers for local languages of races that are not your own. The state religion is the Church of the Lantern (duh). The state of Lux has spread a common coin: 1 divine crown (1 gp-equivalent) which subdivides into 50 eyrs (2 cp-equivalent). The further you travel from the divine homelands, the more people barter with goods rather than coin, with at the extreme the northern orc tribes, which barely accept crowns. The state backs its coin with promise: 1 divine crown can always be earned with 1 day of manual labour for the state or the church.
 
@@ -89,17 +89,17 @@ Most of the homebrew stuff is GM-facing for this adventure. I have doctored up s
 
 As for house rules, I will run with my usual house rule for campaigns that could hit high levels:
 
-* The spell Wish (phb 288) loses its second to last paragraph ("You might be able ... the item's current owner.") This means you may only wish for the as-described options.
+- The spell Wish (phb 288) loses its second to last paragraph ("You might be able ... the item's current owner.") This means you may only wish for the as-described options.
 
 Reason: I have found that breaking reality in a monkey-paw way is often, actually, not that fun. It's bound to end campaigns in a single casting, either in the player's favour or to their detriment. Because most of the spell is fine as-written, I have chosen to remove the monkey-paw, free-form bad-faith-interpreting rule-lawyery do-whatever choice, leaving with a spell that can do more than enough reality shaping without accidentally ending a player for stupid reasons.
 
 Further, there is a house rule that I have been subconsciously running with since forever, but never formally put to paper. It's time to finally do that:
 
-* The spell Remove Curse (phb 271) is changed to a 2nd level spell, and its text is changed to: "At your touch, all temporary curses, such as those caused by spells such as Hex and Bestow Curse cast at lower than 9th level, end." The spell Greater Restoration (phb 246) has its second bullet point ("One curse, including ... cursed magic item") changed to "One temporary curse, such as those caused by spells such as Hex and Bestow Curse cast at lower than 9th level." 
+- The spell Remove Curse (phb 271) is changed to a 2nd level spell, and its text is changed to: "At your touch, all temporary curses, such as those caused by spells such as Hex and Bestow Curse cast at lower than 9th level, end." The spell Greater Restoration (phb 246) has its second bullet point ("One curse, including ... cursed magic item") changed to "One temporary curse, such as those caused by spells such as Hex and Bestow Curse cast at lower than 9th level."
 
 Reason: 5e's curse rules suck in a way that makes them mostly unfun. Low level characters are often unable to handle any curse that is of a "fun" amount of strength, but once characters enter tier 2 curses become completely deflated because the party cleric can just undo a curse after a night's sleep. This leads to unfun play patterns where player's can only explore the interesting gameplay and roleplay opportunities that curses bring by purposefully roleplaying against the solutions the system gives. I will concede: poorly designed curses can be unfun, and I believe this is why Remove Curse is given so freely by the player handbook, as a lot of the suggested curses WotC gives are also poorly designed. By implementing this house rule, I give the following promises:
 
-* A curse will never be debilitating to moment-to-moment roleplay. While a curse obviously affects a character's choices, I will design them more as a "sword of damocles" than as a "you must now roleplay a personality trait I have given you." Examples of this are the Vortigern great tempest possession, and the Phil lycanthropy.
-* A curse will always have an in-universe way of dispelling it, and that way is never practically impossible. There will always be silver-fountain-equivalents or specific rituals that can rid you of the curse.
-* A curse will always be designed to be fun to play with. Whether it gives you cool abilities at a cost, or causes trouble in an interesting way, the curse will never be bad in a boring way. I will admit that the aforementioned lycanthropy is not a great example of this point, I'll make a better on in the future if any of you is gonna get himself in a biting contest with a werewolf again.
-* If a curse is actively making your character unfun to play, come to me outside the game, and we'll see if we can either make it more interesting or speedrun the dispelling.
+- A curse will never be debilitating to moment-to-moment roleplay. While a curse obviously affects a character's choices, I will design them more as a "sword of damocles" than as a "you must now roleplay a personality trait I have given you." Examples of this are the Vortigern great tempest possession, and the Phil lycanthropy.
+- A curse will always have an in-universe way of dispelling it, and that way is never practically impossible. There will always be silver-fountain-equivalents or specific rituals that can rid you of the curse.
+- A curse will always be designed to be fun to play with. Whether it gives you cool abilities at a cost, or causes trouble in an interesting way, the curse will never be bad in a boring way. I will admit that the aforementioned lycanthropy is not a great example of this point, I'll make a better on in the future if any of you is gonna get himself in a biting contest with a werewolf again.
+- If a curse is actively making your character unfun to play, come to me outside the game, and we'll see if we can either make it more interesting or speedrun the dispelling.

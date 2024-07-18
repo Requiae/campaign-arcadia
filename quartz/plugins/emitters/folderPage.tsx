@@ -1,11 +1,11 @@
-import { QuartzEmitterPlugin } from "../types"
-import { QuartzComponentProps } from "../../components/types"
-import HeaderConstructor from "../../components/Header"
-import BodyConstructor from "../../components/Body"
-import { pageResources, renderPage } from "../../components/renderPage"
-import { ProcessedContent, defaultProcessedContent } from "../vfile"
-import { FullPageLayout } from "../../cfg"
-import path from "path"
+import { QuartzEmitterPlugin } from "../types";
+import { QuartzComponentProps } from "../../components/types";
+import HeaderConstructor from "../../components/Header";
+import BodyConstructor from "../../components/Body";
+import { pageResources, renderPage } from "../../components/renderPage";
+import { ProcessedContent, defaultProcessedContent } from "../vfile";
+import { FullPageLayout } from "../../cfg";
+import path from "path";
 import {
   FilePath,
   FullSlug,
@@ -14,12 +14,12 @@ import {
   joinSegments,
   pathToRoot,
   simplifySlug,
-} from "../../util/path"
-import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
-import { FolderContent } from "../../components"
-import { write } from "./helpers"
-import { i18n } from "../../i18n"
-import DepGraph from "../../depgraph"
+} from "../../util/path";
+import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout";
+import { FolderContent } from "../../components";
+import { write } from "./helpers";
+import { i18n } from "../../i18n";
+import DepGraph from "../../depgraph";
 
 export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
   const opts: FullPageLayout = {
@@ -27,48 +27,48 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
     ...defaultListPageLayout,
     pageBody: FolderContent(),
     ...userOpts,
-  }
+  };
 
-  const { head: Head, header, beforeBody, pageBody, left, right, footer: Footer } = opts
-  const Header = HeaderConstructor()
-  const Body = BodyConstructor()
+  const { head: Head, header, beforeBody, pageBody, left, right, footer: Footer } = opts;
+  const Header = HeaderConstructor();
+  const Body = BodyConstructor();
 
   return {
     name: "FolderPage",
     getQuartzComponents() {
-      return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer]
+      return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer];
     },
     async getDependencyGraph(_ctx, content, _resources) {
       // Example graph:
       // nested/file.md --> nested/index.html
       // nested/file2.md ------^
-      const graph = new DepGraph<FilePath>()
+      const graph = new DepGraph<FilePath>();
 
       content.map(([_tree, vfile]) => {
-        const slug = vfile.data.slug
-        const folderName = path.dirname(slug ?? "") as SimpleSlug
+        const slug = vfile.data.slug;
+        const folderName = path.dirname(slug ?? "") as SimpleSlug;
         if (slug && folderName !== "." && folderName !== "tags") {
-          graph.addEdge(vfile.data.filePath!, joinSegments(folderName, "index.html") as FilePath)
+          graph.addEdge(vfile.data.filePath!, joinSegments(folderName, "index.html") as FilePath);
         }
-      })
+      });
 
-      return graph
+      return graph;
     },
     async emit(ctx, content, resources): Promise<FilePath[]> {
-      const fps: FilePath[] = []
-      const allFiles = content.map((c) => c[1].data)
-      const cfg = ctx.cfg.configuration
+      const fps: FilePath[] = [];
+      const allFiles = content.map((c) => c[1].data);
+      const cfg = ctx.cfg.configuration;
 
       const folders: Set<SimpleSlug> = new Set(
         allFiles.flatMap((data) => {
-          const slug = data.slug
-          const folderName = path.dirname(slug ?? "") as SimpleSlug
+          const slug = data.slug;
+          const folderName = path.dirname(slug ?? "") as SimpleSlug;
           if (slug && folderName !== "." && folderName !== "tags") {
-            return [folderName]
+            return [folderName];
           }
-          return []
+          return [];
         }),
-      )
+      );
 
       const folderDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
         [...folders].map((folder) => [
@@ -81,19 +81,19 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
             },
           }),
         ]),
-      )
+      );
 
       for (const [tree, file] of content) {
-        const slug = stripSlashes(simplifySlug(file.data.slug!)) as SimpleSlug
+        const slug = stripSlashes(simplifySlug(file.data.slug!)) as SimpleSlug;
         if (folders.has(slug)) {
-          folderDescriptions[slug] = [tree, file]
+          folderDescriptions[slug] = [tree, file];
         }
       }
 
       for (const folder of folders) {
-        const slug = joinSegments(folder, "index") as FullSlug
-        const externalResources = pageResources(pathToRoot(slug), resources)
-        const [tree, file] = folderDescriptions[folder]
+        const slug = joinSegments(folder, "index") as FullSlug;
+        const externalResources = pageResources(pathToRoot(slug), resources);
+        const [tree, file] = folderDescriptions[folder];
         const componentData: QuartzComponentProps = {
           ctx,
           fileData: file.data,
@@ -102,19 +102,19 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
           children: [],
           tree,
           allFiles,
-        }
+        };
 
-        const content = renderPage(cfg, slug, componentData, opts, externalResources)
+        const content = renderPage(cfg, slug, componentData, opts, externalResources);
         const fp = await write({
           ctx,
           content,
           slug,
           ext: ".html",
-        })
+        });
 
-        fps.push(fp)
+        fps.push(fp);
       }
-      return fps
+      return fps;
     },
-  }
-}
+  };
+};

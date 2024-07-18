@@ -1,19 +1,19 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import legacyStyle from "./styles/legacyToc.scss"
-import modernStyle from "./styles/toc.scss"
-import { classNames } from "../util/lang"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types";
+import legacyStyle from "./styles/legacyToc.scss";
+import modernStyle from "./styles/toc.scss";
+import { classNames } from "../util/lang";
 
 // @ts-ignore
-import script from "./scripts/toc.inline"
-import { i18n } from "../i18n"
+import script from "./scripts/toc.inline";
+import { i18n } from "../i18n";
 
 interface Options {
-  layout: "modern" | "legacy"
+  layout: "modern" | "legacy";
 }
 
 const defaultOptions: Options = {
   layout: "modern",
-}
+};
 
 const TableOfContents: QuartzComponent = ({
   fileData,
@@ -21,7 +21,7 @@ const TableOfContents: QuartzComponent = ({
   cfg,
 }: QuartzComponentProps) => {
   if (!fileData.toc) {
-    return null
+    return null;
   }
 
   return (
@@ -55,14 +55,14 @@ const TableOfContents: QuartzComponent = ({
         </ul>
       </div>
     </div>
-  )
-}
-TableOfContents.css = modernStyle
-TableOfContents.afterDOMLoaded = script
+  );
+};
+TableOfContents.css = modernStyle;
+TableOfContents.afterDOMLoaded = script;
 
 const LegacyTableOfContents: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
   if (!fileData.toc) {
-    return null
+    return null;
   }
   return (
     <details id="toc" open={!fileData.collapseToc}>
@@ -79,11 +79,11 @@ const LegacyTableOfContents: QuartzComponent = ({ fileData, cfg }: QuartzCompone
         ))}
       </ul>
     </details>
-  )
-}
-LegacyTableOfContents.css = legacyStyle
+  );
+};
+LegacyTableOfContents.css = legacyStyle;
 
 export default ((opts?: Partial<Options>) => {
-  const layout = opts?.layout ?? defaultOptions.layout
-  return layout === "modern" ? TableOfContents : LegacyTableOfContents
-}) satisfies QuartzComponentConstructor
+  const layout = opts?.layout ?? defaultOptions.layout;
+  return layout === "modern" ? TableOfContents : LegacyTableOfContents;
+}) satisfies QuartzComponentConstructor;

@@ -1,6 +1,6 @@
-import { PageLayout, SharedLayout } from "./quartz/cfg"
-import * as Component from "./quartz/components"
-import { sortFn } from "./quartz/util/customsort"
+import { PageLayout, SharedLayout } from "./quartz/cfg";
+import * as Component from "./quartz/components";
+import { sortFn } from "./quartz/util/customsort";
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -8,11 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/Requiae/campaign-arcadia",
     },
   }),
-}
+};
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
@@ -28,17 +27,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
-        useSavedState: false,
+    Component.DesktopOnly(
+      Component.Explorer({
+        useSavedState: true,
         sortFn: sortFn,
-    })),
+      }),
+    ),
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
-}
+};
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
@@ -48,10 +49,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
+    Component.DesktopOnly(
+      Component.Explorer({
         useSavedState: false,
         sortFn: sortFn,
-    })),
+      }),
+    ),
   ],
   right: [],
-}
+};

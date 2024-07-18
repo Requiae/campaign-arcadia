@@ -1,22 +1,22 @@
-import { i18n } from "../i18n"
-import { FullSlug, joinSegments, pathToRoot } from "../util/path"
-import { JSResourceToScriptElement } from "../util/resources"
-import { googleFontHref } from "../util/theme"
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { i18n } from "../i18n";
+import { FullSlug, joinSegments, pathToRoot } from "../util/path";
+import { JSResourceToScriptElement } from "../util/resources";
+import { googleFontHref } from "../util/theme";
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types";
 
 export default (() => {
   const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
-    const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+    const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title;
     const description =
-      fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description
-    const { css, js } = externalResources
+      fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description;
+    const { css, js } = externalResources;
 
-    const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
-    const path = url.pathname as FullSlug
-    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
+    const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`);
+    const path = url.pathname as FullSlug;
+    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!);
 
-    const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    const iconPath = joinSegments(baseDir, "static/icon.png");
+    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`;
 
     return (
       <head>
@@ -27,7 +27,12 @@ export default (() => {
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
-            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+            <link
+              rel="stylesheet"
+              href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+              integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+              crossorigin=""
+            />
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,8 +51,8 @@ export default (() => {
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
       </head>
-    )
-  }
+    );
+  };
 
-  return Head
-}) satisfies QuartzComponentConstructor
+  return Head;
+}) satisfies QuartzComponentConstructor;
