@@ -1,12 +1,12 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import explorerStyle from "./styles/explorer.scss"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types";
+import explorerStyle from "./styles/explorer.scss";
 
 // @ts-ignore
-import script from "./scripts/explorer.inline"
-import { ExplorerNode, FileNode, Options } from "./ExplorerNode"
-import { QuartzPluginData } from "../plugins/vfile"
-import { classNames } from "../util/lang"
-import { i18n } from "../i18n"
+import script from "./scripts/explorer.inline";
+import { ExplorerNode, FileNode, Options } from "./ExplorerNode";
+import { QuartzPluginData } from "../plugins/vfile";
+import { classNames } from "../util/lang";
+import { i18n } from "../i18n";
 
 // Options interface defined in `ExplorerNode` to avoid circular dependency
 const defaultOptions = {
@@ -14,7 +14,7 @@ const defaultOptions = {
   folderDefaultState: "collapsed",
   useSavedState: true,
   mapFn: (node) => {
-    return node
+    return node;
   },
   sortFn: (a, b) => {
     // Sort order: folders first, then files. Sort folders and files alphabetically
@@ -24,55 +24,55 @@ const defaultOptions = {
       return a.displayName.localeCompare(b.displayName, undefined, {
         numeric: true,
         sensitivity: "base",
-      })
+      });
     }
 
     if (a.file && !b.file) {
-      return 1
+      return 1;
     } else {
-      return -1
+      return -1;
     }
   },
   filterFn: (node) => node.name !== "tags",
   order: ["filter", "map", "sort"],
-} satisfies Options
+} satisfies Options;
 
 export default ((userOpts?: Partial<Options>) => {
   // Parse config
-  const opts: Options = { ...defaultOptions, ...userOpts }
+  const opts: Options = { ...defaultOptions, ...userOpts };
 
   // memoized
-  let fileTree: FileNode
-  let jsonTree: string
+  let fileTree: FileNode;
+  let jsonTree: string;
 
   function constructFileTree(allFiles: QuartzPluginData[]) {
     if (fileTree) {
-      return
+      return;
     }
 
     // Construct tree from allFiles
-    fileTree = new FileNode("")
-    allFiles.forEach((file) => fileTree.add(file))
+    fileTree = new FileNode("");
+    allFiles.forEach((file) => fileTree.add(file));
 
     // Execute all functions (sort, filter, map) that were provided (if none were provided, only default "sort" is applied)
     if (opts.order) {
       // Order is important, use loop with index instead of order.map()
       for (let i = 0; i < opts.order.length; i++) {
-        const functionName = opts.order[i]
+        const functionName = opts.order[i];
         if (functionName === "map") {
-          fileTree.map(opts.mapFn)
+          fileTree.map(opts.mapFn);
         } else if (functionName === "sort") {
-          fileTree.sort(opts.sortFn)
+          fileTree.sort(opts.sortFn);
         } else if (functionName === "filter") {
-          fileTree.filter(opts.filterFn)
+          fileTree.filter(opts.filterFn);
         }
       }
     }
 
     // Get all folders of tree. Initialize with collapsed state
     // Stringify to pass json tree as data attribute ([data-tree])
-    const folders = fileTree.getFolderPaths(opts.folderDefaultState === "collapsed")
-    jsonTree = JSON.stringify(folders)
+    const folders = fileTree.getFolderPaths(opts.folderDefaultState === "collapsed");
+    jsonTree = JSON.stringify(folders);
   }
 
   const Explorer: QuartzComponent = ({
@@ -81,8 +81,7 @@ export default ((userOpts?: Partial<Options>) => {
     displayClass,
     fileData,
   }: QuartzComponentProps) => {
-    constructFileTree(allFiles)
-    console.log(fileTree)
+    constructFileTree(allFiles);
     return (
       <div class={classNames(displayClass, "explorer")}>
         <button
@@ -116,10 +115,10 @@ export default ((userOpts?: Partial<Options>) => {
           </ul>
         </div>
       </div>
-    )
-  }
+    );
+  };
 
-  Explorer.css = explorerStyle
-  Explorer.afterDOMLoaded = script
-  return Explorer
-}) satisfies QuartzComponentConstructor
+  Explorer.css = explorerStyle;
+  Explorer.afterDOMLoaded = script;
+  return Explorer;
+}) satisfies QuartzComponentConstructor;
