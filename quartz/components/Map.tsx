@@ -65,6 +65,7 @@ export default ((ignore: boolean = false) => {
 
     return (
       <div>
+        <h2 id="map">Map</h2>
         <div id="leaflet-map"/>
         {markers.map((object, i) => MarkerComponent(object, i, urlPrefix))}
       </div>
