@@ -32,6 +32,7 @@ document.addEventListener("nav", () => {
   mapItem.fitBounds(bounds);
 
   for (const marker of markers) {
+    // eslint-disable-next-line
     const markerData = marker.dataset as MarkerDataSet;
     addMarker(markerData);
   }
@@ -41,6 +42,7 @@ document.addEventListener("nav", () => {
   }
 
   function addMarker(markerData: MarkerDataSet) {
+    // eslint-disable-next-line
     marker([parseInt(markerData.posY), parseInt(markerData.posX)], { url: markerData.link })
       .bindTooltip(markerData.name)
       .on("click", markerOnClick)
