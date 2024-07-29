@@ -22,4 +22,4 @@ npm run serve
 | markerX    | integer | X coordinate for this page on the campaign map             |
 | markerY    | integer | Y coordinate for this page on the campaign map             |
 
-> A marker requires `title`, `markerX`, and `markerY` to be seta
+> A marker requires `title`, `markerX`, and `markerY` to be set
