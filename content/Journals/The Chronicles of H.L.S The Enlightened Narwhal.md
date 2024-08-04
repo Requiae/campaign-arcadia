@@ -1,8 +1,12 @@
 ---
 title: The Chronicles of H.L.S The Enlightened Narwhal
-tag: journal
+tag:
+  - Journal
+  - Sahiusa
 prioritise: true
 ---
+
+These chronicles are written by [[Sahiusa]]
 
 ## Day 1: (3-5)
 

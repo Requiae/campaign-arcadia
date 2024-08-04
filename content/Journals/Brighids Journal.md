@@ -1,12 +1,16 @@
 ---
 title: Brighid's Journal
-tag: journal
+tag:
+  - Journal
+  - Brighid
 prioritise: true
 ---
 
-# Year 3366
+This journal is written by [[Brighid]].
 
-## 4th Moon
+## Year 3366
+
+### 4th Moon
 
 > [!note]+ 21st
 > Sahiusa, Hanford, and I finally arrived at Limani.
@@ -22,7 +26,7 @@ prioritise: true
 > [!note]+ 24th - Feast of Light
 > Today we attended the Feast hosted by the Church. I got a fair share of odd stares. I did get to meet the rest of the crew during the Feast, it’s an odd bunch, but I think I could enjoy their company.
 
-## 5th Moon
+### 5th Moon
 
 > [!note]+ 1st
 > Now that I was officially introduced to the crew as their healer I was allowed to enter the ship. The ship was mostly prepared and all that was left for me to do was to prepare my own cabin and ensure that the medical gear was complete.
@@ -45,7 +49,7 @@ prioritise: true
 > [!note]+ 24th - Feast of Light
 > A Feast on the open ocean. That means a whole two cans and a fish per person, what a meal. Sahiusa admonished me for being grumpy during dinner.
 
-## 6th Moon
+### 6th Moon
 
 > [!note]+ 6th
 > Today we arrived on the island of Pai’na. We got to resupply and sleep on solid land tonight. Tomorrow we will resume the journey and we’ll have no more stops until Arcadia itself. I’m just happy to stretch my legs and run around a bit.
@@ -56,7 +60,7 @@ prioritise: true
 > [!note]+ 24th - Flower Festival
 > I’m starting to get sick of fish. Honestly looking forward to the Fast since then our meals won’t include fish. Anyhow, the festival itself was fun, even without the flowers. We danced and sang a lot.
 
-## 7th Moon
+### 7th Moon
 
 > [!note]+ 12th - Fast
 > I managed to convince Murray, our cook, to let me have half a can of pickles and half a can of peaches for dinner under the guise of not feeling well. Somehow I doubt my sister will be happy with this.
@@ -64,7 +68,7 @@ prioritise: true
 > [!note]+ 24th - Feast of Light
 > Today is the 70th day of the expedition already. We should arrive at Arcadia tomorrow. Sadly we weren’t able to celebrate the Feast with fresh food today, so more fish was consumed. Captain Kingsley said we’d land at the delta on the north side of the island. Soon we can stop eating fish.
 
-## 8th Moon - Start of the campaign
+### 8th Moon - Start of the campaign
 
 > [!note]+ 1st
 > We got caught in a bad storm today. Half of the ship is gone, and what was left was turned into a shelter. We stranded a fair bit west of where we had intended to land. After I recovered from my initial shock I tended to both Maya and Leonid who got wounded while trying to bring the ship back under control.
