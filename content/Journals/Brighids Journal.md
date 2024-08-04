@@ -1,10 +1,16 @@
 ---
 title: Brighid's Journal
-tag: journal
+tag:
+  - Journal
+  - Brighid
 prioritise: true
 ---
 
-# 4th Moon
+This journal is written by [[Brighid]].
+
+## Year 3366
+
+### 4th Moon
 
 > [!note]+ 21st
 > Sahiusa, Hanford, and I finally arrived at Limani.
@@ -20,7 +26,7 @@ prioritise: true
 > [!note]+ 24th - Feast of Light
 > Today we attended the Feast hosted by the Church. I got a fair share of odd stares. I did get to meet the rest of the crew during the Feast, it’s an odd bunch, but I think I could enjoy their company.
 
-# 5th Moon
+### 5th Moon
 
 > [!note]+ 1st
 > Now that I was officially introduced to the crew as their healer I was allowed to enter the ship. The ship was mostly prepared and all that was left for me to do was to prepare my own cabin and ensure that the medical gear was complete.
@@ -43,7 +49,7 @@ prioritise: true
 > [!note]+ 24th - Feast of Light
 > A Feast on the open ocean. That means a whole two cans and a fish per person, what a meal. Sahiusa admonished me for being grumpy during dinner.
 
-# 6th Moon
+### 6th Moon
 
 > [!note]+ 6th
 > Today we arrived on the island of Pai’na. We got to resupply and sleep on solid land tonight. Tomorrow we will resume the journey and we’ll have no more stops until Arcadia itself. I’m just happy to stretch my legs and run around a bit.
@@ -54,7 +60,7 @@ prioritise: true
 > [!note]+ 24th - Flower Festival
 > I’m starting to get sick of fish. Honestly looking forward to the Fast since then our meals won’t include fish. Anyhow, the festival itself was fun, even without the flowers. We danced and sang a lot.
 
-# 7th Moon
+### 7th Moon
 
 > [!note]+ 12th - Fast
 > I managed to convince Murray, our cook, to let me have half a can of pickles and half a can of peaches for dinner under the guise of not feeling well. Somehow I doubt my sister will be happy with this.
@@ -62,7 +68,7 @@ prioritise: true
 > [!note]+ 24th - Feast of Light
 > Today is the 70th day of the expedition already. We should arrive at Arcadia tomorrow. Sadly we weren’t able to celebrate the Feast with fresh food today, so more fish was consumed. Captain Kingsley said we’d land at the delta on the north side of the island. Soon we can stop eating fish.
 
-# 8th Moon - Start of the campaign
+### 8th Moon - Start of the campaign
 
 > [!note]+ 1st
 > We got caught in a bad storm today. Half of the ship is gone, and what was left was turned into a shelter. We stranded a fair bit west of where we had intended to land. After I recovered from my initial shock I tended to both Maya and Leonid who got wounded while trying to bring the ship back under control.
@@ -71,7 +77,7 @@ prioritise: true
 > Today we left camp and headed west towards the Warmwood as our maps told us there would be a small village there. Strangely enough the sheep here are more lucid than the people. Only a man named Alfred from a previous expedition was still able to communicate with us, and he could barely remember anything from the day before. It seems these people are fed by fey from the woods, almost as if they are cattle. I don’t like it here. We opted not to take any food given by the fey with us and harvested some berries ourselves before heading back to camp.
 
 > [!note]+ 3rd
-> This day we headed east, towards the town of Rana populated mostly by frogmen and fishfolk. We were almost immediately given an escort and only shown around the good parts of town. A few comments were made here and there and it quickly became clear that there was something they were not telling us. Anyhow, we were here for tools and while they were clearly trying to rip us off, we ended up paying the normal price for them. Our escort really wanted to show us their temple so we went to the destroyed harbour, apparently the goblins down south are pirates and like to play with explosives.
+> This day we headed east, towards the town of [[Rana]] populated mostly by frogmen and fishfolk. We were almost immediately given an escort and only shown around the good parts of town. A few comments were made here and there and it quickly became clear that there was something they were not telling us. Anyhow, we were here for tools and while they were clearly trying to rip us off, we ended up paying the normal price for them. Our escort really wanted to show us their temple so we went to the destroyed harbour, apparently the goblins down south are pirates and like to play with explosives.
 >
 > At this point Murray sent Mort to investigate the town, something felt horribly awry. At the temple we met archpriest Iploosh who accidentally ended up spilling their aim of enslaving people. I got sick and decided to leave quickly. Upon leaving we were given a cart, and once we were no longer visible from town I discovered their goal of tracking us by means of the cart, we sabotaged this plan and took the cart with us.
 >
@@ -87,6 +93,9 @@ prioritise: true
 > Aside from the depressing news of our serious time limit, we did find some ruins from the Arcadians. Even though it was just a picnic place, it also included a map. We’ll investigate the ruins the map pointed to tomorrow. After heading back to our meetup point in the hamlet we fought with the fishy bastards. I never liked seeing Sahiusa fight, but she can hold her own, even if she did end up rolling in the mud today.
 
 > [!note]+ 6th
+> Today we decided to investigate the location marked on the map I found. On our way to said ruins we passed by a small town inhabited by fey and people from Lux. The people from Lux either are in a later stage of the curse or just very late in life. Personally I didn’t like to linger here, I’d prefer to get rid of the curse as soon as possible, however the group decided to take a break here and convinced me to play some music together with the fey. During our conversations with an awakened dog by the name of Bjork we did learn that the inhabitants of this island do not dream. I fear that the curse and dream are linked, and I do not like my odds as someone who is ‘Dream Ascended’.
+>
+> The next village we passed was the place where the dead are processed, as per their agreement with the fey. We did not linger and after asking for directions we headed straight for the ruins. The ruins seemed to be some underground train station, and a map Sahuisa activated showed it is even a whole network. Sadly the network is not active at the moment, but we did find a gem that seemed to have powered a golem clerk, so hopefully we can find a charged one soon. For now however we will travel by foot. We are spending the night in the town we met Bjork, and I must admit that the fey do properly care for the cursed.
 
 > [!note]+ 7th
 
