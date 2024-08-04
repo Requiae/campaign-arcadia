@@ -20,16 +20,16 @@ View [[The Chronicles of H.L.S The Enlightened Narwhal]] instead.
     </thead>
     <tbody>
       <tr>
-        <td>Age</td>
-        <td>70</td>
-      </tr>
-      <tr>
         <td>Race</td>
         <td>Aasimar (of elven descent)</td>
       </tr>
       <tr>
         <td>Gender</td>
         <td>Female (she/her)</td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td>70</td>
       </tr>
       <tr>
         <td>Birthday</td>
@@ -89,7 +89,7 @@ Not long after the incident an inquisitor of the church arrived to observe this 
 
 Over the years much progress has been made with [[Brighid]]. She can speak without blasting everyone (most of the time), she can sing at times and Sahiusa even noticed the occasional smile. However, she also noticed her little sister throwing worried glances at her and the sky at times, as if expecting something.
 
-After the civil war was over multiple voyages were made to the island of Arcadia.
+After the civil war was over multiple voyages were made to the island of [[The Island|Arcadia]].
 One of these voyages was joined by Fenlamin, Qinjor’s son and heir.
 Hoping to bring glory to his house’s name Fenlamin had even brought Forind’s feudal ring with him. This ring was formed out of a dream signifying Ashling herself wished for their family to govern these lands. Now both Fenlamin and the ring have gone missing, an unacceptable situation for Qinjor.
 
