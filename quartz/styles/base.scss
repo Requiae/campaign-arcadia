@@ -471,15 +471,6 @@ img {
   margin: 1rem 0;
 }
 
-img[alt*="right"] {
-  width: 250px;
-  float: right;
-  clear: right;
-  margin-left: 1rem;
-  margin-bottom: 2px;
-  margin-top: 2px;
-}
-
 p > img + em {
   display: block;
   transform: translateY(-1rem);
