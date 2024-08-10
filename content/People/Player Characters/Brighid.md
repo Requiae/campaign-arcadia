@@ -8,45 +8,20 @@ prioritise: true
 
 View [[Brighids Journal | Brighid's journal]] instead.
 
-![[Brighid.jpg|right]]
-
-<div class="table-container right">
-  <table>
-    <thead>
-      <tr>
-        <th>Details</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Race</td>
-        <td>Half elf (humanoid) <br> Half ruby dragon (dragon)</td>
-      </tr>
-      <tr>
-        <td>Gender</td>
-        <td>Female (she/her)</td>
-      </tr>
-      <tr>
-        <td>Age</td>
-        <td>66</td>
-      </tr>
-      <tr>
-        <td>Birthday</td>
-        <td>6-1-3300 (Winter)</td>
-      </tr>
-      <tr>
-        <td>Class</td>
-        <td>Bard - Lore College <br> (level 3)</td>
-      </tr>
-      <tr>
-        <td>Jobs</td>
-        <td>Healer <br> Songstress <br> Driver <br> Cartographer</td>
-      </tr>
-      <tr><td></tr>
-    </tbody>
-  </table>
-</div>
+> [!infobox]
+>
+> ![[Brighid.jpg]]
+>
+> | Details   |                                                                                                                       |
+> | --------- | --------------------------------------------------------------------------------------------------------------------- |
+> | Race      | Half elf (humanoid) <br> Half ruby dragon (dragon)                                                                    |
+> | Gender    | Female (she/her)                                                                                                      |
+> | Age       | 66                                                                                                                    |
+> | Birthday  | 6-1-3300 (Winter)                                                                                                     |
+> | Relatives | Elduin (father, baron) <br> Rania (mother, baroness) <br> Waris (elder brother, heir) <br> [[Sahiusa]] (elder sister) |
+> |           |                                                                                                                       |
+> | Class     | Bard - Lore College                                                                                                   |
+> | Jobs      | Healer <br> Songstress <br> Driver <br> Cartographer                                                                  |
 
 ## Backstory
 
@@ -65,13 +40,6 @@ The next few weeks were a blur and Brighid had trouble finding her bearings. Her
 Her family welcomed their 52 year old daughter who no longer remembered them with open arms, regardless of her changed appearance. The days after she was brought back home the volatile half-dragon was slowly nursed back to health. It took months for Brighid to regain her voice, and it took years for her to be able to talk without empowering her words with draconic power. Over the span of more than a decade she slowly learned how to use this power with intentional effects. And while she still was terrified, awkward, and prone to lash out in fear, she did fit in decently well. She especially bonded with [[Sahiusa]] who she viewed as her protector. In time she learned to enjoy the things she did before her whole ordeal. She found peace in the calm of nature, she watched her sister train with the knights, but above all she started to sing again. The issue however were her nightmares. Most nights there were fearful draconic screeches. To prevent rumours from spreading, and to ensure everyone in the estate got their sleep, her bedroom was moved to a heavily guarded house next to the main manor. Brighid herself could never fully remember her nightmares, but a few themes were constant; a rampaging dragon covered in rubies, the death of her elder sister [[Sahiusa]] by said dragon, and [[The Island|an island far to the south]] that might be the key to preventing this future.
 
 Now that [[Sahiusa]] is moving out to [[The Island|Arcadia]] for her own reasons, Brighid chose to accompany her to prevent her nightmares from becoming true, hoping to regain the lost memories of her youth, and wishing to learn how to control the large reservoir of power contained within her.
-
-## Relatives
-
-- Elduin (father, baron)
-- Rania (mother, baroness)
-- Waris (elder brother, heir)
-- [[Sahiusa]] (elder sister)
 
 ## Trivia
 
