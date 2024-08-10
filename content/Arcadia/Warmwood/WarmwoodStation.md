@@ -1,6 +1,9 @@
 ---
 title: Warmwood Park Station
 tags: Warmwood
-markerX: 347
-markerY: 550
+marker:
+  x: 347
+  y: 550
+  icon: fa-train-subway
+  colour: purple
 ---
