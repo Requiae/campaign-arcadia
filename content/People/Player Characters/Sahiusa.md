@@ -12,14 +12,16 @@ View [[The Chronicles of H.L.S The Enlightened Narwhal]] instead.
 >
 > ![[Sahiusa.jpg]]
 >
-> | Details  |                                                                          |
-> | -------- | ------------------------------------------------------------------------ |
-> | Race     | Aasimar (of elven descent)                                               |
-> | Gender   | Female (she/her)                                                         |
-> | Age      | 70                                                                       |
-> | Birthday | 2-4-3296 (Spring)                                                        |
-> | Class    | Fighter - Samurai <br> (level 3)                                         |
-> | Jobs     | Melee fighter <br> Meat shield <br> Writer/Cataloguer <br> Quartermaster |
+> | Details   |                                                                                                                         |
+> | --------- | ----------------------------------------------------------------------------------------------------------------------- |
+> | Race      | Aasimar (of elven descent)                                                                                              |
+> | Gender    | Female (she/her)                                                                                                        |
+> | Age       | 70                                                                                                                      |
+> | Birthday  | 2-4-3296 (Spring)                                                                                                       |
+> | Relatives | Elduin (father, baron) <br> Rania (mother, baroness) <br> Waris (elder brother, heir) <br> [[Brighid]] (younger sister) |
+> |           |                                                                                                                         |
+> | Class     | Fighter - Samurai                                                                                                       |
+> | Jobs      | Melee fighter <br> Meat shield <br> Writer/Cataloguer <br> Quartermaster                                                |
 
 ## Backstory
 
