@@ -33,6 +33,10 @@ export default (() => {
               integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
               crossorigin=""
             />
+            <script
+              src="https://kit.fontawesome.com/af92c5cabc.js"
+              crossorigin="anonymous"
+            ></script>
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

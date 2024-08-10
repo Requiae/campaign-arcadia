@@ -15,11 +15,14 @@ npm run serve
 
 ## Custom frontmatter
 
-| Item       | Type    | Explanation                                                |
-| ---------- | ------- | ---------------------------------------------------------- |
-| prioritise | boolean | Whether this page should appear above maps in the explorer |
-| map        | boolean | Whether this page should show the campaign map             |
-| markerX    | integer | X coordinate for this page on the campaign map             |
-| markerY    | integer | Y coordinate for this page on the campaign map             |
+| Item          | Type    | Explanation                                                                                |
+| ------------- | ------- | ------------------------------------------------------------------------------------------ |
+| prioritise    | boolean | Whether this page should appear above maps in the explorer                                 |
+| map           | boolean | Whether this page should show the campaign map                                             |
+| marker        | object  | Custom object containing marker information                                                |
+| marker.x      | number  | Marker x coordinate                                                                        |
+| marker.y      | number  | Marker y coordinate                                                                        |
+| marker.icon   | string  | Font-Awesome icon string in the form of `fa-NAME`                                          |
+| marker.colour | string  | `green`, `lime`, `yellow`, `pink`, `blue`, `lightblue`, `brown`, `orange`, `red`, `purple` |
 
-> A marker requires `title`, `markerX`, and `markerY` to be set
+> A marker requires `title`, `marker.x`, `marker.x`, and `marker.icon` to be set. Colour defaults to blue.
