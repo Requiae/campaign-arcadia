@@ -13,12 +13,27 @@ interface Marker {
     x: number;
     y: number;
   };
+  icon: string;
+  colour: string;
+}
+
+interface FrontmatterMarkerData {
+  x: string;
+  y: string;
+  icon: string;
+  colour: string | undefined;
+}
+
+function isFrontmatterMarkerData(object: any): object is FrontmatterMarkerData {
+  return !(!object || !object.x || !object.y || !object.icon);
 }
 
 export default ((ignore: boolean = false) => {
   function buildMarker(file: QuartzPluginData): Marker | undefined {
     const { slug, frontmatter } = file;
-    if (!slug || !frontmatter?.title || !frontmatter?.markerX || !frontmatter?.markerY) {
+    const markerData = frontmatter?.marker;
+
+    if (!slug || !frontmatter || !frontmatter?.title || !isFrontmatterMarkerData(markerData)) {
       return undefined;
     }
 
@@ -26,9 +41,11 @@ export default ((ignore: boolean = false) => {
       name: frontmatter.title,
       link: slug,
       position: {
-        x: parseInt(frontmatter.markerX as string),
-        y: parseInt(frontmatter.markerY as string),
+        x: parseInt(markerData.x),
+        y: parseInt(markerData.y),
       },
+      icon: markerData.icon ?? "",
+      colour: markerData.colour ?? "blue",
     };
   }
 
@@ -41,6 +58,8 @@ export default ((ignore: boolean = false) => {
         data-link={`https://${prefix}/${marker.link}`}
         data-pos-x={marker.position.x}
         data-pos-y={marker.position.y}
+        data-icon={marker.icon}
+        data-colour={marker.colour}
       />
     );
   };

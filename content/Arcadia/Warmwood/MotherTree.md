@@ -1,6 +1,9 @@
 ---
 title: Great Mother Tree
 tags: Warmwood
-markerX: 349
-markerY: 623
+marker:
+  x: 349
+  y: 623
+  icon: fa-landmark
+  colour: green
 ---

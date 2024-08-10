@@ -1,6 +1,9 @@
 ---
 title: Hamlet of Hamlet
 tags: Warmwood
-markerX: 403
-markerY: 648
+marker:
+  x: 403
+  y: 648
+  icon: fa-house
+  colour: green
 ---
