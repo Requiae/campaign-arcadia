@@ -8,45 +8,18 @@ prioritise: true
 
 View [[The Chronicles of H.L.S The Enlightened Narwhal]] instead.
 
-![[Sahiusa.jpg|right]]
-
-<div class="table-container right">
-  <table>
-    <thead>
-      <tr>
-        <th>Details</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Race</td>
-        <td>Aasimar (of elven descent)</td>
-      </tr>
-      <tr>
-        <td>Gender</td>
-        <td>Female (she/her)</td>
-      </tr>
-      <tr>
-        <td>Age</td>
-        <td>70</td>
-      </tr>
-      <tr>
-        <td>Birthday</td>
-        <td>2-4-3296 (Spring)</td>
-      </tr>
-      <tr>
-        <td>Class</td>
-        <td>Fighter - Samurai <br> (level 3)</td>
-      </tr>
-      <tr>
-        <td>Jobs</td>
-        <td>Melee fighter <br> Meat shield <br> Writer/Cataloguer <br> Quartermaster</td>
-      </tr>
-      <tr><td></tr>
-    </tbody>
-  </table>
-</div>
+> [!infobox]
+>
+> ![[Sahiusa.jpg]]
+>
+> | Details  |                                                                          |
+> | -------- | ------------------------------------------------------------------------ |
+> | Race     | Aasimar (of elven descent)                                               |
+> | Gender   | Female (she/her)                                                         |
+> | Age      | 70                                                                       |
+> | Birthday | 2-4-3296 (Spring)                                                        |
+> | Class    | Fighter - Samurai <br> (level 3)                                         |
+> | Jobs     | Melee fighter <br> Meat shield <br> Writer/Cataloguer <br> Quartermaster |
 
 ## Backstory
 

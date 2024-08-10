@@ -8,45 +8,18 @@ prioritise: true
 
 View [[Brighids Journal | Brighid's journal]] instead.
 
-![[Brighid.jpg|right]]
-
-<div class="table-container right">
-  <table>
-    <thead>
-      <tr>
-        <th>Details</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Race</td>
-        <td>Half elf (humanoid) <br> Half ruby dragon (dragon)</td>
-      </tr>
-      <tr>
-        <td>Gender</td>
-        <td>Female (she/her)</td>
-      </tr>
-      <tr>
-        <td>Age</td>
-        <td>66</td>
-      </tr>
-      <tr>
-        <td>Birthday</td>
-        <td>6-1-3300 (Winter)</td>
-      </tr>
-      <tr>
-        <td>Class</td>
-        <td>Bard - Lore College <br> (level 3)</td>
-      </tr>
-      <tr>
-        <td>Jobs</td>
-        <td>Healer <br> Songstress <br> Driver <br> Cartographer</td>
-      </tr>
-      <tr><td></tr>
-    </tbody>
-  </table>
-</div>
+> [!infobox]
+>
+> ![[Brighid.jpg]]
+>
+> | Details  |                                                      |
+> | -------- | ---------------------------------------------------- |
+> | Race     | Half elf (humanoid) <br> Half ruby dragon (dragon)   |
+> | Gender   | Female (she/her)                                     |
+> | Age      | 66                                                   |
+> | Birthday | 6-1-3300 (Winter)                                    |
+> | Class    | Bard - Lore College <br> (level 3)                   |
+> | Jobs     | Healer <br> Songstress <br> Driver <br> Cartographer |
 
 ## Backstory
 
