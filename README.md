@@ -25,4 +25,7 @@ npm run serve
 | marker.icon   | string  | Font-Awesome icon string in the form of `fa-NAME`                                          |
 | marker.colour | string  | `green`, `lime`, `yellow`, `pink`, `blue`, `lightblue`, `brown`, `orange`, `red`, `purple` |
 
-> A marker requires `title`, `marker.x`, `marker.x`, and `marker.icon` to be set. Colour defaults to blue.
+> A marker requires `title`, `marker.x`, `marker.x`, and `marker.icon` to be set. Colour defaults to `blue`.
+
+## Custom CSS
+We also make use to the the same css [this wiki](https://morrowind-modding.github.io/contributing/custom-formatting-features) uses.
