@@ -28,4 +28,5 @@ npm run serve
 > A marker requires `title`, `marker.x`, `marker.x`, and `marker.icon` to be set. Colour defaults to `blue`.
 
 ## Custom CSS
+
 We also make use to the the same css [this wiki](https://morrowind-modding.github.io/contributing/custom-formatting-features) uses.
