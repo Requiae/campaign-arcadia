@@ -6,6 +6,7 @@ import { sortFn } from "./quartz/util/customsort";
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
+  afterBody: [],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/Requiae/campaign-arcadia",
