@@ -5,6 +5,6 @@ tags:
 marker:
   x: 440
   y: 673
-  icon: fa-campground
+  icon: camp
   colour: orange
 ---

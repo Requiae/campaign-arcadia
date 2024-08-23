@@ -4,6 +4,6 @@ tags: Warmwood
 marker:
   x: 349
   y: 623
-  icon: fa-landmark
+  icon: capitol
   colour: green
 ---

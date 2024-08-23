@@ -6,6 +6,7 @@ import {
   LatLngBoundsExpression,
   LeafletMouseEvent,
   LeafletMouseEventHandlerFn,
+  Map,
   map,
   marker,
   MarkerOptions,
@@ -22,6 +23,8 @@ type MarkerColour =
   | "orange"
   | "red"
   | "purple";
+type MarkerIcon = "capitol" | "town" | "subway" | "camp";
+
 const MARKER_COLOUR_MAP: Record<MarkerColour, string> = {
   green: "#039c4b",
   lime: "#66d313",
@@ -34,43 +37,88 @@ const MARKER_COLOUR_MAP: Record<MarkerColour, string> = {
   red: "#f44546",
   purple: "#7623a5",
 };
+const MARKER_ICON_MAP: Record<MarkerIcon, string> = {
+  capitol: "../assets/img/markers/capitol.svg",
+  town: "/assets/img/markers/pin.svg",
+  subway: "/assets/img/markers/pin.svg",
+  camp: "/assets/img/markers/pin.svg",
+};
+const MAP_ID = "leaflet-map";
+const MARKER_SELECTOR = "div.marker";
 
 interface MarkerDataSet {
   name: string;
   link: string;
   posX: string;
   posY: string;
-  icon: string;
+  icon: MarkerIcon;
   colour: MarkerColour;
 }
 
-function buildIcon(icon: string, colour: MarkerColour): DivIcon {
+function buildIcon(icon: MarkerIcon, colour: MarkerColour): DivIcon {
+  const iconColour = MARKER_COLOUR_MAP[colour];
   return divIcon({
     className: "custom-div-icon",
-    html: `<i class="marker fa fa-location-pin" style="color:${MARKER_COLOUR_MAP[colour]}"></i><i class='icon fa-solid ${icon}'>`,
-    iconSize: [30, 38],
-    iconAnchor: [15, 38],
-    tooltipAnchor: [16, -25],
+    html: `<div class="marker" style="background-color:${iconColour}"></div><div class='icon ${icon}'>`,
+    iconSize: [32, 48],
+    iconAnchor: [16, 48],
+    tooltipAnchor: [17, -36],
     shadowUrl: "../assets/img/markers/shadow.png",
     shadowSize: [41, 41],
   });
 }
 
-document.addEventListener("nav", () => {
-  const mapElement = document.getElementById("leaflet-map");
-  if (!mapElement) {
-    return;
+function getMarkerOnClick(url: string): LeafletMouseEventHandlerFn {
+  return (_event: LeafletMouseEvent) => {
+    window.location.href = `${url}`;
+  };
+}
+
+function addMarker(markerData: MarkerDataSet, mapItem: Map): void {
+  const options: MarkerOptions = {
+    icon: buildIcon(markerData.icon, markerData.colour),
+  };
+
+  // eslint-disable-next-line
+  marker([parseInt(markerData.posY), parseInt(markerData.posX)], options)
+    .bindTooltip(markerData.name)
+    .on("click", getMarkerOnClick(markerData.link))
+    .addTo(mapItem);
+}
+
+function isMarkerDataSet(dataset: any): dataset is MarkerDataSet {
+  if (
+    !dataset["name"] ||
+    !dataset["link"] ||
+    !dataset["posX"] ||
+    !dataset["posY"] ||
+    !dataset["icon"] ||
+    !dataset["colour"]
+  ) {
+    return false;
   }
+  return true;
+}
 
-  const markers: NodeListOf<HTMLElement> = document.querySelectorAll("div.marker");
+function getMarkerData(markers: NodeListOf<HTMLElement>): MarkerDataSet[] {
+  const data: MarkerDataSet[] = [];
+  for (const marker of markers) {
+    if (isMarkerDataSet(marker.dataset)) {
+      data.push(marker.dataset);
+    }
+    marker.remove();
+  }
+  return data;
+}
 
+function initialiseMap(mapElement: HTMLElement, markers: MarkerDataSet[]): Map {
   //const bounds: LatLngBoundsExpression = [[0, 0], [1064, 1200]];
   const bounds: LatLngBoundsExpression = [
     [0, 0],
     [768, 1024],
   ];
 
-  const mapItem = map("leaflet-map", {
+  const mapItem = map(mapElement, {
     crs: CRS.Simple,
     maxBounds: bounds,
     minZoom: 0,
@@ -80,30 +128,20 @@ document.addEventListener("nav", () => {
   imageOverlay("../assets/img/arcadia.png", bounds).addTo(mapItem);
 
   mapItem.fitBounds(bounds);
+  markers.map((marker) => addMarker(marker, mapItem));
 
-  for (const marker of markers) {
-    // yuck, but mehh
-    const markerData = marker.dataset as unknown as MarkerDataSet;
-    addMarker(markerData);
+  return mapItem;
+}
+
+document.addEventListener("nav", () => {
+  const map = document.getElementById(MAP_ID);
+  if (!map) {
+    return;
   }
 
-  function getMarkerOnClick(url: string): LeafletMouseEventHandlerFn {
-    return (_event: LeafletMouseEvent) => {
-      window.location.href = `${url}`;
-    };
-  }
+  const markers: NodeListOf<HTMLElement> = document.querySelectorAll(MARKER_SELECTOR);
+  const markerData = getMarkerData(markers);
 
-  function addMarker(markerData: MarkerDataSet) {
-    const options: MarkerOptions = {
-      icon: buildIcon(markerData.icon, markerData.colour),
-    };
-
-    console.log(options);
-
-    // eslint-disable-next-line
-    marker([parseInt(markerData.posY), parseInt(markerData.posX)], options)
-      .bindTooltip(markerData.name)
-      .on("click", getMarkerOnClick(markerData.link))
-      .addTo(mapItem);
-  }
+  const mapItem = initialiseMap(map, markerData);
+  window.addCleanup(() => mapItem.remove());
 });

@@ -4,6 +4,6 @@ tags: Warmwood
 marker:
   x: 403
   y: 648
-  icon: fa-house
+  icon: town
   colour: green
 ---
