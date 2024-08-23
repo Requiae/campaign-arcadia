@@ -22,7 +22,7 @@ npm run serve
 | marker        | object  | Custom object containing marker information                                                |
 | marker.x      | number  | Marker x coordinate                                                                        |
 | marker.y      | number  | Marker y coordinate                                                                        |
-| marker.icon   | string  | Font-Awesome icon string in the form of `fa-NAME`                                          |
+| marker.icon   | string  | `capitol`, `town`, `camp`, `subway`                                                        |
 | marker.colour | string  | `green`, `lime`, `yellow`, `pink`, `blue`, `lightblue`, `brown`, `orange`, `red`, `purple` |
 
 > A marker requires `title`, `marker.x`, `marker.x`, and `marker.icon` to be set. Colour defaults to `blue`.

@@ -6,7 +6,7 @@ tags:
 marker:
   x: 500
   y: 650
-  icon: fa-landmark
+  icon: capitol
   colour: blue
 ---
 

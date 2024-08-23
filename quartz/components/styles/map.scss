@@ -13,20 +13,36 @@
 // to align icon
 .custom-div-icon .icon {
   position: absolute;
-  width: 16px;
+  width: 32px;
+  height: 17px;
   font-size: 16px;
-  left: 4;
-  right: 4;
   top: 6;
   margin: 0px auto;
   text-align: center;
+
+  &.capitol {
+    background-image: url("/static/markers/capitol.svg");
+  }
+
+  &.town {
+    background-image: url("/static/markers/town.svg");
+  }
+
+  &.camp {
+    background-image: url("/static/markers/camp.svg");
+  }
+
+  &.subway {
+    background-image: url("/static/markers/subway.svg");
+  }
 }
 
 // to align marker
 .custom-div-icon .marker {
+  mask-image: url("/static/markers/pin.svg");
   position: absolute;
-  width: 30px;
-  font-size: 38px;
+  width: 32px;
+  height: 48px;
   margin: 0px auto;
   text-align: center;
 }

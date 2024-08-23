@@ -4,6 +4,6 @@ tags: Warmwood
 marker:
   x: 347
   y: 550
-  icon: fa-train-subway
+  icon: subway
   colour: purple
 ---
