@@ -1,6 +1,8 @@
 ---
 title: Great Mother Tree
-tags: Warmwood
+tags:
+  - Dryads
+  - Warmwood
 marker:
   x: 349
   y: 623

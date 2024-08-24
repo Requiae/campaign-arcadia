@@ -1,6 +1,7 @@
 ---
 title: Shipwreck
 tags:
+  - Expedition
   - Northern Shores
 marker:
   x: 440

@@ -1,6 +1,8 @@
 ---
 title: Hamlet of Hamlet
-tags: Warmwood
+tags:
+  - Dryads
+  - Warmwood
 marker:
   x: 403
   y: 648
