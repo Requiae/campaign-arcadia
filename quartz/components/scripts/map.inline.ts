@@ -59,7 +59,7 @@ function buildIcon(icon: MarkerIcon, colour: MarkerColour): DivIcon {
   const iconColour = MARKER_COLOUR_MAP[colour];
   return divIcon({
     className: "custom-div-icon",
-    html: `<div class="marker" style="background-color:${iconColour}"></div><div class='icon ${icon}'>`,
+    html: `<div class="marker" style="background-color:${iconColour}"></div><img class='icon' src='../static/markers/${icon}.svg'>`,
     iconSize: [32, 48],
     iconAnchor: [16, 48],
     tooltipAnchor: [17, -36],
