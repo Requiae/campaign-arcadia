@@ -94,7 +94,7 @@ export default ((ignore: boolean = false) => {
         class={"marker"}
         key={index}
         data-name={marker.name}
-        data-link={`https://${prefix}/${marker.link}`}
+        data-link={`../${marker.link}`}
         data-pos-x={marker.position.x}
         data-pos-y={marker.position.y}
         data-icon={marker.icon}
