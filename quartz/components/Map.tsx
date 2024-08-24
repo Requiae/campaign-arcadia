@@ -6,6 +6,26 @@ import mapScript from "./scripts/map.inline";
 import mapStyles from "./styles/map.scss";
 import { QuartzPluginData } from "../plugins/vfile";
 
+enum MarkerColour {
+  green = "green",
+  lime = "lime",
+  yellow = "yellow",
+  pink = "pink",
+  blue = "blue",
+  lightblue = "lightblue",
+  brown = "brown",
+  orange = "orange",
+  red = "red",
+  purple = "purple",
+}
+
+enum MarkerIcon {
+  capitol = "capitol",
+  town = "town",
+  subway = "subway",
+  camp = "camp",
+}
+
 interface Marker {
   name: string;
   link: string;
@@ -13,19 +33,38 @@ interface Marker {
     x: number;
     y: number;
   };
-  icon: string;
-  colour: string;
+  icon: MarkerIcon;
+  colour: MarkerColour;
 }
 
 interface FrontmatterMarkerData {
   x: string;
   y: string;
-  icon: string;
-  colour: string | undefined;
+  icon: MarkerIcon;
+  colour: MarkerColour | undefined;
 }
 
 function isFrontmatterMarkerData(object: any): object is FrontmatterMarkerData {
-  return !(!object || !object.x || !object.y || !object.icon);
+  if (!object || !object.x || !object.y || !object.icon) {
+    return false;
+  }
+
+  // Unknown markers are not accepted
+  if (!Object.values(MarkerIcon).includes(object.icon)) {
+    return false;
+  }
+
+  // Undefined colours are handled elsewhere, these may pass
+  if (!object.colour) {
+    return true;
+  }
+
+  // Unknown colours however are not accepted
+  if (!Object.values(MarkerColour).includes(object.colour)) {
+    return false;
+  }
+
+  return true;
 }
 
 export default ((ignore: boolean = false) => {
@@ -44,8 +83,8 @@ export default ((ignore: boolean = false) => {
         x: parseInt(markerData.x),
         y: parseInt(markerData.y),
       },
-      icon: markerData.icon ?? "",
-      colour: markerData.colour ?? "blue",
+      icon: markerData.icon,
+      colour: markerData.colour ?? MarkerColour.blue,
     };
   }
 
