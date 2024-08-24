@@ -28,7 +28,11 @@ function buildIcon(icon: string, colour: string): DivIcon {
   return divIcon({
     className: "custom-div-icon",
     html: `
-      <img class="marker ${colour}" src="../static/markers/pin.svg">
+      <svg class='marker ${colour}' width="32" height="48" version="1.1" viewBox="0 0 233.29 349.94"">
+        <g transform="matrix(.75581 0 0 .75 -59.677 -.00049655)">
+          <path d="m233.29 0c-85.1 0-154.33 69.234-154.33 154.33 0 34.275 21.887 90.155 66.908 170.83 31.846 57.063 63.168 104.64 64.484 106.64l22.942 34.775 22.941-34.774c1.317-1.998 32.641-49.577 64.483-106.64 45.023-80.68 66.908-136.56 66.908-170.83 1e-3 -85.1-69.233-154.33-154.33-154.33z"/>
+        </g>
+      </svg>
       <img class='icon' src='../static/markers/${icon}.svg'>
     `,
     iconSize: [32, 48],

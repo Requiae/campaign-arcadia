@@ -1,11 +1,11 @@
 ---
-title: Great Mother Tree
+title: Dryad Outpost
 tags:
   - Dryads
   - Warmwood
 marker:
-  x: 349
-  y: 623
-  icon: capitol
+  x: 456
+  y: 548
+  icon: shield
   colour: green
 ---

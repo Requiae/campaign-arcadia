@@ -1,11 +1,11 @@
 ---
-title: Great Mother Tree
+title: Town of Final Days
 tags:
   - Dryads
   - Warmwood
 marker:
-  x: 349
-  y: 623
-  icon: capitol
+  x: 410
+  y: 571
+  icon: town
   colour: green
 ---

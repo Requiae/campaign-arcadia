@@ -1,6 +1,8 @@
 ---
 title: Warmwood Park Station
-tags: Warmwood
+tags:
+  - Arcadia
+  - Warmwood
 marker:
   x: 347
   y: 550

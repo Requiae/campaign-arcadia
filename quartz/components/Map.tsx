@@ -24,6 +24,9 @@ enum MarkerIcon {
   town = "town",
   subway = "subway",
   camp = "camp",
+  star = "star",
+  tree = "tree",
+  shield = "shield",
 }
 
 interface Marker {

@@ -44,9 +44,10 @@
   width: 32px;
   height: 17px;
   font-size: 16px;
-  top: 6;
+  top: 8;
+  left: 0;
+  z-index: inherit;
   margin: 0px auto;
-  text-align: center;
 }
 
 // to align marker
@@ -55,45 +56,45 @@
   width: 32px;
   height: 48px;
   margin: 0px auto;
-  text-align: center;
+  z-index: inherit;
 
   &.green {
-    @include recolor(#039c4b, 1);
+    fill: #039c4b;
   }
 
   &.lime {
-    @include recolor(#66d313, 1);
+    fill: #66d313;
   }
 
   &.yellow {
-    @include recolor(#fedf17, 1);
+    fill: #fedf17;
   }
 
   &.pink {
-    @include recolor(#ff0984, 1);
+    fill: #ff0984;
   }
 
   &.blue {
-    @include recolor(#21409a, 1);
+    fill: #21409a;
   }
 
   &.lightblue {
-    @include recolor(#04adff, 1);
+    fill: #04adff;
   }
 
   &.brown {
-    @include recolor(#e48873, 1);
+    fill: #e48873;
   }
 
   &.orange {
-    @include recolor(#f16623, 1);
+    fill: #f16623;
   }
 
   &.red {
-    @include recolor(#f44546, 1);
+    fill: #f44546;
   }
 
   &.purple {
-    @include recolor(#7623a5, 1);
+    fill: #7623a5;
   }
 }

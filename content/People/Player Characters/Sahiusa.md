@@ -3,6 +3,7 @@ title: Sahiusa Pavet
 tag:
   - Player Character
   - Sahiusa
+  - Expedition
 prioritise: true
 ---
 

@@ -3,6 +3,7 @@ title: Brighid Pavet
 tag:
   - Player Character
   - Brighid
+  - Expedition
 prioritise: true
 ---
 
