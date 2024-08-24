@@ -1,3 +1,31 @@
+@use "sass:math";
+
+@mixin recolor($color: #000, $opacity: 1) {
+  $r: math.div(red($color), 255);
+  $g: math.div(green($color), 255);
+  $b: math.div(blue($color), 255);
+  $a: $opacity;
+
+  // grayscale fallback if SVG from data url is not supported
+  $lightness: lightness($color);
+  filter: saturate(0%) brightness(0%) invert($lightness) opacity($opacity);
+
+  // color filter
+  $svg-filter-id: "recolor";
+  filter: url('data:image/svg+xml;utf8,\
+  <svg xmlns="http://www.w3.org/2000/svg">\
+    <filter id="#{$svg-filter-id}" color-interpolation-filters="sRGB">\
+      <feColorMatrix type="matrix" values="\
+        0 0 0 0 #{$r}\
+        0 0 0 0 #{$g}\
+        0 0 0 0 #{$b}\
+        0 0 0 #{$a} 0\
+      "/>\
+    </filter>\
+  </svg>\
+  ##{$svg-filter-id}');
+}
+
 #leaflet-map {
   width: 100%;
   margin: 0;
@@ -23,10 +51,49 @@
 
 // to align marker
 .custom-div-icon .marker {
-  mask-image: url("../static/markers/pin.svg");
   position: absolute;
   width: 32px;
   height: 48px;
   margin: 0px auto;
   text-align: center;
+
+  &.green {
+    @include recolor(#039c4b, 1);
+  }
+
+  &.lime {
+    @include recolor(#66d313, 1);
+  }
+
+  &.yellow {
+    @include recolor(#fedf17, 1);
+  }
+
+  &.pink {
+    @include recolor(#ff0984, 1);
+  }
+
+  &.blue {
+    @include recolor(#21409a, 1);
+  }
+
+  &.lightblue {
+    @include recolor(#04adff, 1);
+  }
+
+  &.brown {
+    @include recolor(#e48873, 1);
+  }
+
+  &.orange {
+    @include recolor(#f16623, 1);
+  }
+
+  &.red {
+    @include recolor(#f44546, 1);
+  }
+
+  &.purple {
+    @include recolor(#7623a5, 1);
+  }
 }

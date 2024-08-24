@@ -12,31 +12,6 @@ import {
   MarkerOptions,
 } from "leaflet";
 
-type MarkerColour =
-  | "green"
-  | "lime"
-  | "yellow"
-  | "pink"
-  | "blue"
-  | "lightblue"
-  | "brown"
-  | "orange"
-  | "red"
-  | "purple";
-type MarkerIcon = "capitol" | "town" | "subway" | "camp";
-
-const MARKER_COLOUR_MAP: Record<MarkerColour, string> = {
-  green: "#039c4b",
-  lime: "#66d313",
-  yellow: "#fedf17",
-  pink: "#ff0984",
-  blue: "#21409a",
-  lightblue: "#04adff",
-  brown: "#e48873",
-  orange: "#f16623",
-  red: "#f44546",
-  purple: "#7623a5",
-};
 const MAP_ID = "leaflet-map";
 const MARKER_SELECTOR = "div.marker";
 
@@ -45,20 +20,20 @@ interface MarkerDataSet {
   link: string;
   posX: string;
   posY: string;
-  icon: MarkerIcon;
-  colour: MarkerColour;
+  icon: string;
+  colour: string;
 }
 
-function buildIcon(icon: MarkerIcon, colour: MarkerColour): DivIcon {
-  const iconColour = MARKER_COLOUR_MAP[colour];
+function buildIcon(icon: string, colour: string): DivIcon {
   return divIcon({
     className: "custom-div-icon",
-    html: `<div class="marker" style="background-color:${iconColour}"></div><img class='icon' src='../static/markers/${icon}.svg'>`,
+    html: `
+      <img class="marker ${colour}" src="../static/markers/pin.svg">
+      <img class='icon' src='../static/markers/${icon}.svg'>
+    `,
     iconSize: [32, 48],
     iconAnchor: [16, 48],
     tooltipAnchor: [17, -36],
-    shadowUrl: "../assets/img/markers/shadow.png",
-    shadowSize: [41, 41],
   });
 }
 
