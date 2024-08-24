@@ -4,5 +4,6 @@ tag:
   - Player Character
   - Murrey
   - Expedition
+  - Lux
 prioritise: true
 ---
