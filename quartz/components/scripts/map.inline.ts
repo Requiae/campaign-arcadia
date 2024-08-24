@@ -37,12 +37,6 @@ const MARKER_COLOUR_MAP: Record<MarkerColour, string> = {
   red: "#f44546",
   purple: "#7623a5",
 };
-const MARKER_ICON_MAP: Record<MarkerIcon, string> = {
-  capitol: "../assets/img/markers/capitol.svg",
-  town: "/assets/img/markers/pin.svg",
-  subway: "/assets/img/markers/pin.svg",
-  camp: "/assets/img/markers/pin.svg",
-};
 const MAP_ID = "leaflet-map";
 const MARKER_SELECTOR = "div.marker";
 
