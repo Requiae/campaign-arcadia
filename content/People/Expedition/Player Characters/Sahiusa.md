@@ -4,6 +4,8 @@ tag:
   - Player Character
   - Sahiusa
   - Expedition
+  - Lux
+  - Confederate Duchies
 prioritise: true
 ---
 
@@ -35,7 +37,7 @@ The elven house of Pavet has long watched over the barony, as does its current h
 Sahiusa was born with white faintly glowing freckles on her face, indicating she was not a normal elf. The church was called in and recognised it as a sign of an aasimar. This revelation, interesting as it was, initially meant little for Sahiusa. After a slightly rowdy childhood with her [[Brighid|sister]] she would soon develop a talent for writing, maths, riding and other such courtly activities.
 
 At the age of 50 this calm life abruptly ended with the disappearance of her [[Brighid|sister]].
-Her carriage suddenly disappeared and even though the efforts to find them went as far as receiving aid from the confederation and church alike, the search ended with no sign of any of the missing people. This loss hit Sahiusa hard. She had always been very close with her Brighid|sister and losing her was a stab in the heart. She became more and more distant, in her dreams she blamed herself for this loss, the shine on her freckles faded, the wings she had learned to call forth went from white to grey, her dreams became nightmares and the freckles and wings turned jet black. She had fallen.
+Her carriage suddenly disappeared and even though the efforts to find them went as far as receiving aid from the confederation and church alike, the search ended with no sign of any of the missing people. This loss hit Sahiusa hard. She had always been very close with her [[Brighid|sister]] and losing her was a stab in the heart. She became more and more distant, in her dreams she blamed herself for this loss, the shine on her freckles faded, the wings she had learned to call forth went from white to grey, her dreams became nightmares and the freckles and wings turned jet black. She had fallen.
 
 Her father looked on with sorrow in his heart as he saw the loss of not one, but two of his daughters. He knew he would not be able to change the course his daughter had set, and so he had no choice but to send her to his lord, count Qinjor Kreivi, who would undoubtedly send her to one of the many facilities of the church in the east.
 
@@ -52,7 +54,7 @@ So it was that she would respond to a report of a rebel encampment in one of the
 
 Although the fanatics fought fiercely enough to challenge even the church’s prestigious paladins in zeal, their lack of actual weaponry and armour meant they had lost before the fighting even started. as they went through the camp to capture any stragglers Sahiusa noticed one door was significantly sturdier. Likely the chapel of whatever foul religion they followed. she formed up a few of her squadmates behind her and steeled herself as she opened the door.
 
-Behind it she found what could only be described as a monster, a girl with the horns of a devil, the scales of a lizard, the tail of a dragonborn, the wings of a dragon, malnourished, dim eyed and very much screaming in her direction, knocking Hanford straight off his feet.
+Behind it she found what could only be described as a monster, a girl with the horns of a devil, the scales of a lizard, the tail of a dragonborn, the wings of a dragon, malnourished, dim eyed and very much screaming in her direction, knocking [[Hanford]] straight off his feet.
 After recovering from the initial shock she took a good look at the monster.
 
 ‘Brighid?’
