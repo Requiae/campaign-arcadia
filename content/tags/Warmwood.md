@@ -1,4 +1,3 @@
 ---
 title: Warmwood
-draft: false
 ---
