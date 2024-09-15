@@ -51,7 +51,7 @@ interface FrontmatterMarkerData {
 
 interface FrontmatterMapData {
   name: string;
-  url: string;
+  path: string;
   minZoom: number;
   maxZoom: number;
 }
@@ -83,7 +83,7 @@ function isFrontmatterMapData(object: any): object is FrontmatterMapData {
   if (
     !object ||
     !object.name ||
-    !object.url ||
+    !object.path ||
     object.minZoom === undefined ||
     object.maxZoom === undefined
   ) {
@@ -151,7 +151,7 @@ export default ((ignore: boolean = false) => {
         <h2 id="map">Map</h2>
         <div
           id="leaflet-map"
-          data-url={`../${mapData.url}`}
+          data-url={`../${mapData.path}`}
           data-min-zoom={mapData.minZoom}
           data-max-zoom={mapData.maxZoom}
         />

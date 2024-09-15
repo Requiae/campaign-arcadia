@@ -18,7 +18,11 @@ npm run serve
 | Item          | Type    | Explanation                                                                                |
 | ------------- | ------- | ------------------------------------------------------------------------------------------ |
 | prioritise    | boolean | Whether this page should appear above maps in the explorer                                 |
-| map           | boolean | Whether this page should show the campaign map                                             |
+| map           | object  | Custom object containing marker information Whether this page should show the campaign map |
+| map.name      | string  | Name of the map                                                                            |
+| map.path      | string  | Path to the map image where the content folder is the root                                 |
+| map.minZoom   | number  | The minimum zoom the map allows                                                            |
+| map.maxZoom   | number  | The maximum zoom the map allows                                                            |
 | marker        | object  | Custom object containing marker information                                                |
 | marker.x      | number  | Marker x coordinate                                                                        |
 | marker.y      | number  | Marker y coordinate                                                                        |
