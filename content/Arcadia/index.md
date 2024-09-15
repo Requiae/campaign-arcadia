@@ -1,5 +1,9 @@
 ---
 title: Arcadia
 draft: false
-map: true
+map:
+  name: Arcadia
+  url: ../assets/img/arcadia.png
+  minZoom: 0
+  maxZoom: 2
 ---

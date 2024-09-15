@@ -31,6 +31,7 @@ enum MarkerIcon {
 
 interface Marker {
   name: string;
+  mapName: string;
   link: string;
   position: {
     x: number;
@@ -41,10 +42,18 @@ interface Marker {
 }
 
 interface FrontmatterMarkerData {
+  mapName: string;
   x: string;
   y: string;
   icon: MarkerIcon;
   colour: MarkerColour | undefined;
+}
+
+interface FrontmatterMapData {
+  name: string;
+  url: string;
+  minZoom: number;
+  maxZoom: number;
 }
 
 function isFrontmatterMarkerData(object: any): object is FrontmatterMarkerData {
@@ -70,6 +79,24 @@ function isFrontmatterMarkerData(object: any): object is FrontmatterMarkerData {
   return true;
 }
 
+function isFrontmatterMapData(object: any): object is FrontmatterMapData {
+  if (
+    !object ||
+    !object.name ||
+    !object.url ||
+    object.minZoom === undefined ||
+    object.maxZoom === undefined
+  ) {
+    return false;
+  }
+
+  if (!Number.isInteger(object.minZoom) || !Number.isInteger(object.maxZoom)) {
+    return false;
+  }
+
+  return true;
+}
+
 export default ((ignore: boolean = false) => {
   function buildMarker(file: QuartzPluginData): Marker | undefined {
     const { slug, frontmatter } = file;
@@ -81,6 +108,7 @@ export default ((ignore: boolean = false) => {
 
     return {
       name: frontmatter.title,
+      mapName: markerData.mapName,
       link: slug,
       position: {
         x: parseInt(markerData.x),
@@ -107,7 +135,8 @@ export default ((ignore: boolean = false) => {
   };
 
   const Map: QuartzComponent = (props: QuartzComponentProps) => {
-    if (!props.fileData.frontmatter || !props.fileData.frontmatter?.map || ignore) {
+    const mapData = props.fileData.frontmatter?.map;
+    if (!props.fileData.frontmatter || !isFrontmatterMapData(mapData) || ignore) {
       return <></>;
     }
 
@@ -115,11 +144,17 @@ export default ((ignore: boolean = false) => {
 
     const markers = props.allFiles
       .map((file) => buildMarker(file))
-      .filter((marker) => marker !== undefined);
+      .filter((marker) => marker !== undefined)
+      .filter((marker) => marker.mapName?.toLowerCase() === mapData.name?.toLowerCase());
     return (
       <div>
         <h2 id="map">Map</h2>
-        <div id="leaflet-map" />
+        <div
+          id="leaflet-map"
+          data-url={`../${mapData.url}`}
+          data-min-zoom={mapData.minZoom}
+          data-max-zoom={mapData.maxZoom}
+        />
         {markers.map((object, i) => MarkerComponent(object, i, urlPrefix))}
       </div>
     );

@@ -4,6 +4,7 @@ tags:
   - Arcadia
   - Warmwood
 marker:
+  mapName: Arcadia
   x: 347
   y: 550
   icon: subway

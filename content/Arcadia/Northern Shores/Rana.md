@@ -4,6 +4,7 @@ tags:
   - Rana
   - Northern Shores
 marker:
+  mapName: Arcadia
   x: 500
   y: 650
   icon: capitol

@@ -24,6 +24,12 @@ interface MarkerDataSet {
   colour: string;
 }
 
+interface MapDataSet {
+  url: string;
+  minZoom: string;
+  maxZoom: string;
+}
+
 function buildIcon(icon: string, colour: string): DivIcon {
   return divIcon({
     className: "custom-div-icon",
@@ -73,6 +79,13 @@ function isMarkerDataSet(dataset: any): dataset is MarkerDataSet {
   return true;
 }
 
+function isMapDataSet(dataset: any): dataset is MapDataSet {
+  if (!dataset["url"] || !dataset["minZoom"] || !dataset["maxZoom"]) {
+    return false;
+  }
+  return true;
+}
+
 function getMarkerData(markers: NodeListOf<HTMLElement>): MarkerDataSet[] {
   const data: MarkerDataSet[] = [];
   for (const marker of markers) {
@@ -84,21 +97,42 @@ function getMarkerData(markers: NodeListOf<HTMLElement>): MarkerDataSet[] {
   return data;
 }
 
-function initialiseMap(mapElement: HTMLElement, markers: MarkerDataSet[]): Map {
+async function getMeta(url: string): Promise<HTMLImageElement> {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = (error) => reject(error);
+    image.src = url;
+  });
+}
+
+async function initialiseMap(
+  mapElement: HTMLElement,
+  markers: MarkerDataSet[],
+): Promise<Map | undefined> {
+  const dataset = mapElement.dataset;
+  if (!isMapDataSet(dataset)) {
+    return;
+  }
+
+  const image = await getMeta(dataset.url);
+
+  mapElement.style.aspectRatio = (image.naturalWidth / image.naturalHeight).toString();
+
   //const bounds: LatLngBoundsExpression = [[0, 0], [1064, 1200]];
   const bounds: LatLngBoundsExpression = [
     [0, 0],
-    [768, 1024],
+    [image.naturalHeight / 2, image.naturalWidth / 2],
   ];
 
   const mapItem = map(mapElement, {
     crs: CRS.Simple,
     maxBounds: bounds,
-    minZoom: 0,
-    maxZoom: 2,
+    minZoom: parseInt(dataset.minZoom),
+    maxZoom: parseInt(dataset.maxZoom),
   });
 
-  imageOverlay("../assets/img/arcadia.png", bounds).addTo(mapItem);
+  imageOverlay(dataset.url, bounds).addTo(mapItem);
 
   mapItem.fitBounds(bounds);
   markers.map((marker) => addMarker(marker, mapItem));
@@ -106,7 +140,7 @@ function initialiseMap(mapElement: HTMLElement, markers: MarkerDataSet[]): Map {
   return mapItem;
 }
 
-document.addEventListener("nav", () => {
+document.addEventListener("nav", async () => {
   const map = document.getElementById(MAP_ID);
   if (!map) {
     return;
@@ -115,6 +149,6 @@ document.addEventListener("nav", () => {
   const markers: NodeListOf<HTMLElement> = document.querySelectorAll(MARKER_SELECTOR);
   const markerData = getMarkerData(markers);
 
-  const mapItem = initialiseMap(map, markerData);
-  window.addCleanup(() => mapItem.remove());
+  const mapItem = await initialiseMap(map, markerData);
+  window.addCleanup(() => mapItem?.remove());
 });
