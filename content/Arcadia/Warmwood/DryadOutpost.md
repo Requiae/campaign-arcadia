@@ -9,3 +9,6 @@ marker:
   icon: shield
   colour: green
 ---
+
+A wooden stockade manned by dryads and other fae, led by the tough and seasoned [[Oakleaf|commander Oakleaf]].
+It overlooks the road to the south, guarding against the many raids of the goblins.

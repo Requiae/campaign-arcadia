@@ -9,3 +9,5 @@ marker:
   icon: town
   colour: red
 ---
+
+A former fae town on the southern edge of the warmwood forest. It now houses many families of the short folk.
