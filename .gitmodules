@@ -1,0 +1,3 @@
+[submodule "quartz-module"]
+	path = quartz-module
+	url = https://github.com/Requiae/quartz-module

@@ -2,7 +2,11 @@
 title: The Island
 draft: false
 prioritise: true
-map: true
+map:
+  name: Arcadia
+  path: assets/img/arcadia.png
+  minZoom: 0
+  maxZoom: 2
 ---
 
 ## The underground train network

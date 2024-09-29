@@ -4,6 +4,7 @@ tags:
   - Arcadia
   - Aeqen
 marker:
+  mapName: Arcadia
   x: 230
   y: 425
   icon: capitol

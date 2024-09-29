@@ -4,6 +4,7 @@ tags:
   - Dryads
   - Warmwood
 marker:
+  mapName: Arcadia
   x: 410
   y: 571
   icon: town

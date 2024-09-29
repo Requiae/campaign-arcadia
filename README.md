@@ -1,16 +1,43 @@
-# Quartz v4
+# Quartz Template
 
+This template uses a slightly modified version of [Quartz](https://github.com/jackyzha0/quartz) which has its own [documentation](https://quartz.jzhao.xyz/)
 Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+The modifier version can be found [here](https://github.com/Requiae/quartz-module)
 
 ## Get started
 
-To run the website locally simply run
+### Install dependencies
+
+First you have to initialise the submodules
+
+```
+git submodule update --init
+```
+
+And then you can install all the node dependencies
+
+```
+npm install
+```
+
+### Run website locally
+
+Running the site now is done by using
 
 ```
 npm run serve
+```
+
+### Update Git submodule
+
+It might be the case that the [quartz-module submodule](https://github.com/Requiae/quartz-module) has been updated. In that case you should make a new branch and update the submodule.
+Afterwards you merge it using a PR
+
+```
+git checkout -b submodule-update
+git submodule update --remote quartz-module
+git add quartz-module
+git commit -m "Update submodule quartz-module to latest commit"
 ```
 
 ## Custom frontmatter
@@ -18,7 +45,11 @@ npm run serve
 | Item          | Type    | Explanation                                                                                |
 | ------------- | ------- | ------------------------------------------------------------------------------------------ |
 | prioritise    | boolean | Whether this page should appear above maps in the explorer                                 |
-| map           | boolean | Whether this page should show the campaign map                                             |
+| map           | object  | Custom object containing marker information Whether this page should show the campaign map |
+| map.name      | string  | Name of the map                                                                            |
+| map.path      | string  | Path to the map image where the content folder is the root                                 |
+| map.minZoom   | number  | The minimum zoom the map allows                                                            |
+| map.maxZoom   | number  | The maximum zoom the map allows                                                            |
 | marker        | object  | Custom object containing marker information                                                |
 | marker.x      | number  | Marker x coordinate                                                                        |
 | marker.y      | number  | Marker y coordinate                                                                        |
