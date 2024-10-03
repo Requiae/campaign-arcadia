@@ -1,3 +1,7 @@
+# Arcadia
+
+This is a digital garden detailing the Dungeons and Dragons (5e) journey when the players join an expedition to explore the island of Arcadia.
+
 # Quartz Template
 
 This template uses a slightly modified version of [Quartz](https://github.com/jackyzha0/quartz) which has its own [documentation](https://quartz.jzhao.xyz/)
