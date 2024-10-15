@@ -9,9 +9,9 @@
     "test": "cd quartz-module && npx quartz build -d ../content --bundleInfo"
   },
   "config": {
-    "title": "Quartz Template",
-    "baseurl": "requiae.github.io/quartz-template",
-    "github": "https://github.com/Requiae/quartz-template"
+    "title": "Arcadia",
+    "baseurl": "requiae.github.io/campaign-arcadia",
+    "github": "https://github.com/Requiae/campaign-arcadia"
   },
   "engines": {
     "npm": ">=9.3.1",
