@@ -194,3 +194,18 @@ This journal is written by [[Brighid]].
 > [!summary]- A Night of Darkness
 >
 > > [!note]+ 12th - The first new moon
+> >
+> > Tonight is the new moon, so we'll get to encouter this curse ourselves for the first time. Naturally I can't say that I'm looking forward to it, this is going to be a horrible night. In preparation we placed a matress in a garden shed and [[Sahiusa]] is going to sleep in the mansion the garden belongs to. Aside from that I spend most time in the bathhouse, simply to calm my nerves.
+>
+> > [!example]+ Dream
+> > We found ourselves on the top of a mountain, all of us were there. The entire peak was surrounded by a maelstrom of clouds, thunder, and darkness. A bellowing evil laughter reverberated our surroundings as it seemed to come from all around us. Meanwhile the force of the maelstrom tried to pull us into the mountain itself.
+> >
+> > "You!" The bellowing voice called out to me. "I tried to banish you, but it seems I have failed."
+> >
+> > A large demonic claw rose from the clouds and slammed down on me. First I saw only darkness, but shortly after I realised I was encased in a very small space. Is struggled to escape, and eventually I managed to break through the shell of what seemed to be a leathery egg. I then saw a young elf, not even 50 years of age. She looked starved, covered in dirt and bruises. Her short and curly brown hair was frayed, her amber eyes were dimmed by fear. The image should have been familiar, but the person in front of me felt like a complete stranger. Around the girl were a lot of strange apparatus, and I could hear a nauseating hum accompanied by foreboding chanting. The elf reached out to me and I reached out to the elf, and then everything was consumed by sudden bright light, the burst of energy vibrating through my entire being.
+>
+> > [!note]+ 13th
+> >
+> > I woke up with a horrifying screech, mostly fearful, slightly pained, all draconic. I properly woke up when bits of shed shrapnel started to rain down on me. On my chest was a mithril cage that contained a floating ruby. Once I sat up I finally saw that there was noting left of the shed, or the garden for that matter, it had turned into a small crater. Exhausted and still terrified from the nightmare I stumbled to the mansion [[Sahiusa|my sister]] was in. I met her inside on the stairs, it seems she had taken on of the rooms on the first floor. She said something about a magic deer but I was too tired to really pay any attention. After a very quick bath we both went to sleep.
+> >
+> > The day itself was calm, all of us were tired, and we had to prepare for the next day. I collected some oversized apples so that [[Murrey]] could prepare breakfast and tea for us. Tomorrow [[Hanford]], [[William]], Murrey, and my sister and I will head out to the frozen forest, and the rest will stay here to start building a new ship. Of course I also spend some time bathing, I won't be able to so for a while anymore after all.
