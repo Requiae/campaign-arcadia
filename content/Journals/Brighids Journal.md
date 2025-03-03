@@ -208,4 +208,10 @@ This journal is written by [[Brighid]].
 > >
 > > I woke up with a horrifying screech, mostly fearful, slightly pained, all draconic. I properly woke up when bits of shed shrapnel started to rain down on me. On my chest was a mithril cage that contained a floating ruby. Once I sat up I finally saw that there was noting left of the shed, or the garden for that matter, it had turned into a small crater. Exhausted and still terrified from the nightmare I stumbled to the mansion [[Sahiusa|my sister]] was in. I met her inside on the stairs, it seems she had taken on of the rooms on the first floor. She said something about a magic deer but I was too tired to really pay any attention. After a very quick bath we both went to sleep.
 > >
-> > The day itself was calm, all of us were tired, and we had to prepare for the next day. I collected some oversized apples so that [[Murrey]] could prepare breakfast and tea for us. Tomorrow [[Hanford]], [[William]], Murrey, and my sister and I will head out to the frozen forest, and the rest will stay here to start building a new ship. Of course I also spend some time bathing, I won't be able to so for a while anymore after all.
+> > The day itself was calm, all of us were tired, and we had to prepare for the next day. I collected some oversized apples so that [[Murrey]] could prepare breakfast and tea for us. Tomorrow [[Hanford]], [[William]], Murrey and Mort, Molly, and my sister and I will head out to the frozen forest, and the rest will stay here to start building a new ship. Of course I also spend some time bathing, I won't be able to so for a while anymore after all.
+
+> [!summary]- The Forest of Icycles
+>
+> > [!note]+ 14th
+> >
+> > We travelled back to the [[WalledGarden|walled garden]] and continued to the mountains from there. After half a day of travel we arrived at an [[ArcadiaWestPassStation|Arcadian building]]. It was build into the mountain side and was facing north. From there we headed south to survey the [[AbandonedFisherVillage|village]] that was suppored to be on the other side of the river. The village turned out to be a seemingly abandoned fishing villager with a few remaining canoes.
