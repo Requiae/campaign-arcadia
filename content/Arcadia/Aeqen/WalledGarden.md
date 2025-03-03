@@ -7,6 +7,7 @@ marker:
   mapName: Arcadia
   x: 332
   y: 427
+  minZoom: 1
   icon: tree
   colour: purple
 ---

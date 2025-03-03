@@ -3,7 +3,6 @@ title: Genesis Myth
 tag:
   - Journal
   - Church of the Lantern
-prioritise: true
 ---
 
 The Goddess Ashling laid on soft grassy ground on an empty planet and slept, and dreamed

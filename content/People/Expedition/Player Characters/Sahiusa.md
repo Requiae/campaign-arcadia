@@ -39,7 +39,7 @@ Sahiusa was born with white faintly glowing freckles on her face, indicating she
 At the age of 50 this calm life abruptly ended with the disappearance of her [[Brighid|sister]].
 Her carriage suddenly disappeared and even though the efforts to find them went as far as receiving aid from the confederation and church alike, the search ended with no sign of any of the missing people. This loss hit Sahiusa hard. She had always been very close with her [[Brighid|sister]] and losing her was a stab in the heart. She became more and more distant, in her dreams she blamed herself for this loss, the shine on her freckles faded, the wings she had learned to call forth went from white to grey, her dreams became nightmares and the freckles and wings turned jet black. She had fallen.
 
-Her father looked on with sorrow in his heart as he saw the loss of not one, but two of his daughters. He knew he would not be able to change the course his daughter had set, and so he had no choice but to send her to his lord, count Qinjor Kreivi, who would undoubtedly send her to one of the many facilities of the church in the east.
+Her father looked on with sorrow in his heart as he saw the loss of not one, but two of his daughters. He knew he would not be able to change the course his daughter had set, and so he had no choice but to send her to his lord, count [[Duchies of An Eilbheis|Qinjor Kreivi]], who would undoubtedly send her to one of the many facilities of the church in the east.
 
 Qinjor was a Firbolg about three centuries old. His life and attunement to nature’s laws had given him a wisdom that would often cause surprising decisions. Rather than sentencing this girl to a life as one of many of the church’s inmates, he sentenced her to become one of his personal retainers. Though the delegation of the church present protested fiercely, they dared not interfere in this judgement.
 
@@ -68,7 +68,7 @@ Not long after the incident an inquisitor of the church arrived to observe this 
 Over the years much progress has been made with [[Brighid]]. She can speak without blasting everyone (most of the time), she can sing at times and Sahiusa even noticed the occasional smile. However, she also noticed her little sister throwing worried glances at her and the sky at times, as if expecting something.
 
 After the civil war was over multiple voyages were made to the island of [[The Island|Arcadia]].
-One of these voyages was joined by Fenlamin, Qinjor’s son and heir.
+One of these voyages was joined by [[Duchies of An Eilbheis|Fenlamin]], Qinjor’s son and heir.
 Hoping to bring glory to his house’s name Fenlamin had even brought Forind’s feudal ring with him. This ring was formed out of a dream signifying Ashling herself wished for their family to govern these lands. Now both Fenlamin and the ring have gone missing, an unacceptable situation for Qinjor.
 
 A new voyage is being sent out and a 70 year old Sahiusa has been tasked to retrieve both son and ring, alive or dead. The voyage itself however is aimed at finding proof of the light’s authority, and such proof is bound to help her [[Brighid|sister]] return to her former self, or so Sahiusa thinks.

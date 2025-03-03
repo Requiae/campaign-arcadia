@@ -7,6 +7,7 @@ marker:
   mapName: Arcadia
   x: 440
   y: 673
+  minZoom: 1
   icon: camp
   colour: orange
 ---
