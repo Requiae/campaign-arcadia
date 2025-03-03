@@ -22,14 +22,19 @@ jobs:
         with:
           fetch-depth: 0
           submodules: "true"
+          
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          
       - name: Install Dependencies
         run: npm install
-      - name: Build Quartz
+        
+      - name: Build Quartz static files
         run: npm run build
-      - name: Upload artifact
+        
+      - name: Upload static files as artifact
+        id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
           path: quartz-module/public
@@ -43,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
