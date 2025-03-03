@@ -7,6 +7,7 @@ marker:
   mapName: Arcadia
   x: 372
   y: 547
+  minZoom: 1
   icon: town
   colour: green
 ---

@@ -3,7 +3,6 @@ title: The Chronicles of H.L.S The Enlightened Narwhal
 tag:
   - Journal
   - Sahiusa
-prioritise: true
 ---
 
 These chronicles are written by [[Sahiusa]]
