@@ -5,7 +5,7 @@ tag:
   - Miscellaneous-Lore
 ---
 
-A journal found by the party in the [[SunkenMarshes|Sunken Marshes]]. The following sections were all that was still readable.
+A journal found by the party in the [[Sunken Marshes|Sunken Marshes]]. The following sections were all that was still readable.
 The thing that Freya buried was an Idol for a heretical god which is currently in [[Brighid]]'s possession.
 
 ---

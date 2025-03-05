@@ -1,5 +1,5 @@
 ---
-title: The Island
+title: The Island of Arcadia
 draft: false
 prioritise: true
 map:
@@ -8,6 +8,12 @@ map:
   minZoom: 0
   maxZoom: 2
 ---
+
+Similar notes:
+
+- [[Ancient Arcadia|The ancient civilisation of Arcadia]]
+- [[Arcadia City|The city of Arcadia]]
+- [[Arcadia Central|Arcadia Central Station]]
 
 ## The underground train network
 
