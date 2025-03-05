@@ -11,4 +11,4 @@ marker:
   colour: purple
 ---
 
-A subterranean train station of Arcadian design in the middle of [[tags/Warmwood|the Warmwood]].
+A subterranean train station of [[Ancient Arcadia|Arcadian]] design in the middle of [[tags/Warmwood|the Warmwood]].
