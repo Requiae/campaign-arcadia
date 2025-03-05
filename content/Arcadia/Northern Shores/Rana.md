@@ -2,7 +2,7 @@
 title: Rana
 tags:
   - Rana
-  - Northern Shores
+  - Northern-Shores
 marker:
   mapName: Arcadia
   x: 500

@@ -1,11 +1,11 @@
 ---
 title: Brighid Pavet
 tag:
-  - Player Character
+  - Player-Character
   - Brighid
   - Expedition
   - Lux
-  - Confederate Duchies
+  - Confederate-Duchies
 prioritise: true
 ---
 

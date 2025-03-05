@@ -3,7 +3,7 @@ title: Forind's Feudal Ring
 tags:
   - Item
   - Sahiusa
-  - Magic Item
+  - Magic-Item
   - Attunement
 ---
 

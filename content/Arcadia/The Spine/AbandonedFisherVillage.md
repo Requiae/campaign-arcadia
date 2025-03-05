@@ -2,7 +2,7 @@
 title: Abandoned Fisher Village
 tags:
   - Arcadia
-  - The Spine
+  - The-Spine
 marker:
   mapName: Arcadia
   x: 317

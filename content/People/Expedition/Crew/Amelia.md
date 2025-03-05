@@ -4,6 +4,6 @@ tag:
   - Crew
   - Expedition
   - Lux
-  - Church of the Lantern
+  - Church-of-the-Lantern
 prioritise: true
 ---
