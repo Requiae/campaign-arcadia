@@ -1,5 +1,5 @@
 ---
-title: Forest of Icycles
+title: Forests of Icycles
 tags:
   - Biome
 ---
