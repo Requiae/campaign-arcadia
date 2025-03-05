@@ -2,7 +2,7 @@
 title: Shipwreck
 tags:
   - Expedition
-  - Northern Shores
+  - Northern-Shores
 marker:
   mapName: Arcadia
   x: 440

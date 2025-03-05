@@ -3,7 +3,7 @@ title: The Dragonstone
 tags:
   - Item
   - Brighid
-  - Magic Item
+  - Magic-Item
   - Attunement
 ---
 

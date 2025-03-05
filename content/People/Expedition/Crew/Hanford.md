@@ -4,6 +4,6 @@ tag:
   - Crew
   - Expedition
   - Lux
-  - Confederate Duchies
+  - Confederate-Duchies
 prioritise: true
 ---

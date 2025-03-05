@@ -2,7 +2,7 @@
 title: Leonore
 tags:
   - Leonore
-  - Forests of Icycles
+  - Forests-of-Icycles
 marker:
   mapName: Arcadia
   x: 190

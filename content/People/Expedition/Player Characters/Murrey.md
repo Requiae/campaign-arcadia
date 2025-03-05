@@ -1,7 +1,7 @@
 ---
 title: Murrey Hayward
 tag:
-  - Player Character
+  - Player-Character
   - Murrey
   - Expedition
   - Lux

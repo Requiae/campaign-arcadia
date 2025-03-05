@@ -1,11 +1,11 @@
 ---
 title: Sahiusa Pavet
 tag:
-  - Player Character
+  - Player-Character
   - Sahiusa
   - Expedition
   - Lux
-  - Confederate Duchies
+  - Confederate-Duchies
 prioritise: true
 ---
 

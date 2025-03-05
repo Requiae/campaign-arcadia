@@ -6,4 +6,4 @@ tag:
 prioritise: true
 ---
 
-Awakened dog living in [[DementiaTown|a town in the Warmwood]]
+Awakened dog living in [[Dementia Town|a town in the Warmwood]]
