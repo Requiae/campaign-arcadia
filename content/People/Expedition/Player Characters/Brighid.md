@@ -9,22 +9,42 @@ tag:
 prioritise: true
 ---
 
-View [[Brighids Journal | Brighid's journal]] instead.
-
 > [!infobox]
 >
 > ![[Brighid.jpg]]
 >
-> | Details   |                                                                                                                       |
-> | --------- | --------------------------------------------------------------------------------------------------------------------- |
-> | Race      | Half elf (humanoid) <br> Half ruby dragon (dragon)                                                                    |
-> | Gender    | Female (she/her)                                                                                                      |
-> | Age       | 66                                                                                                                    |
-> | Birthday  | 6-1-3300 (Winter)                                                                                                     |
-> | Relatives | Elduin (father, baron) <br> Rania (mother, baroness) <br> Waris (elder brother, heir) <br> [[Sahiusa]] (elder sister) |
-> |           |                                                                                                                       |
-> | Class     | Bard - Lore College                                                                                                   |
-> | Jobs      | Healer <br> Songstress <br> Driver <br> Cartographer                                                                  |
+> > [!tip] Biographical information
+>
+> |          |                      |
+> | -------- | -------------------- |
+> | Species  | Elf (humanoid)       |
+> |          | Ruby dragon (dragon) |
+> | Gender   | Female (she/her)     |
+> | Age      | 66                   |
+> | Birthday | 6-1-3300 (Winter)    |
+>
+> > [!bug] Relations
+>
+> |           |                            |
+> | --------- | -------------------------- |
+> | Relatives | Elduin (father)            |
+> |           | Rania (mother)             |
+> |           | Waris (elder brother)      |
+> |           | [[Sahiusa]] (elder sister) |
+> | Factions  | Barony of Zenndra          |
+> |           | The expedition             |
+>
+> > [!example] Details
+>
+> |       |                 |
+> | ----- | --------------- |
+> | Class | Divine Sorcerer |
+> | Jobs  | Healer          |
+> |       | Songstress      |
+> |       | Driver          |
+> |       | Cartographer    |
+
+View [[Brighids Journal | Brighid's journal]] instead.
 
 ## Backstory
 
