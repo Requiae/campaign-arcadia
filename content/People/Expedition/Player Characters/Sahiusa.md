@@ -9,22 +9,39 @@ tag:
 prioritise: true
 ---
 
-View [[The Chronicles of H.L.S The Enlightened Narwhal]] instead.
-
 > [!infobox]
 >
 > ![[Sahiusa.jpg]]
 >
-> | Details   |                                                                                                                         |
-> | --------- | ----------------------------------------------------------------------------------------------------------------------- |
-> | Race      | Aasimar (of elven descent)                                                                                              |
-> | Gender    | Female (she/her)                                                                                                        |
-> | Age       | 70                                                                                                                      |
-> | Birthday  | 2-4-3296 (Spring)                                                                                                       |
-> | Relatives | Elduin (father, baron) <br> Rania (mother, baroness) <br> Waris (elder brother, heir) <br> [[Brighid]] (younger sister) |
-> |           |                                                                                                                         |
-> | Class     | Fighter - Samurai                                                                                                       |
-> | Jobs      | Melee fighter <br> Meat shield <br> Writer/Cataloguer <br> Quartermaster                                                |
+> > [!tip] Biographical information
+>
+> |          |                            |
+> | -------- | -------------------------- |
+> | Species  | Aasimar (of elven descent) |
+> | Gender   | Female (she/her)           |
+> | Age      | 70                         |
+> | Birthday | 2-4-3296 (Spring)          |
+>
+> > [!bug] Relations
+>
+> |           |                              |
+> | --------- | ---------------------------- |
+> | Relatives | Elduin (father, baron)       |
+> |           | Rania (mother, baroness)     |
+> |           | Waris (elder brother, heir)  |
+> |           | [[Brighid]] (younger sister) |
+>
+> > [!example] Details
+>
+> |       |                      |
+> | ----- | -------------------- |
+> | Class | Paladin of the Crown |
+> | Jobs  | Melee fighter        |
+> |       | Meat shield          |
+> |       | Writer/Cataloguer    |
+> |       | Quartermaster        |
+
+View [[The Chronicles of H.L.S The Enlightened Narwhal]] instead.
 
 ## Backstory
 
