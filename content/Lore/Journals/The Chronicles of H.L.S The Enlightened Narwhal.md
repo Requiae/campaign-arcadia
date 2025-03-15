@@ -50,7 +50,7 @@ These chronicles are written by [[Sahiusa]]
 > > As soon as they entered the city the party felt uneasy. We were escorted throughout the town and many remarks were made and answers given that gave the impression not all was as pristine as it appeared.
 > > After scouring the markets for tools and such that needed to be replenished (and being ripped off in a way that made us spend regular price) we went through the harbour, where the conflict with goblinkind was visible.
 > > It seems a group of goblins with explosive and flight capabilities has been raiding this town and its agglomeration for a long time.
-> > [[Murrey]] has sent his pet familiar on an exploration mission of its own to observe the parts of the town they would prefer we remain oblivious about.
+> > [[Murray]] has sent his pet familiar on an exploration mission of its own to observe the parts of the town they would prefer we remain oblivious about.
 > > We visited the local temple and its [[Iploosh|Archpriest Iploosh]]. Based on the conversation there (some of which was not for our ears) and the familiar’s report we have deduced that these people use tricks similar to the fey to bend the mind of humans and turn them into slavery.
 > > Hopefully averting a tracking attempt we returned to base to weather an incoming storm.
 >
