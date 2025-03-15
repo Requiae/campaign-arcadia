@@ -2,7 +2,7 @@
 title: Kitchen Knife of Daylight
 tags:
   - Item
-  - Murrey
+  - Murray
   - Magic-Item
 ---
 

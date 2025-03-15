@@ -1,8 +1,8 @@
 ---
-title: Murrey Hayward
+title: Murray Hayward
 tag:
   - Player-Character
-  - Murrey
+  - Murray
   - Expedition
   - Lux
 prioritise: true

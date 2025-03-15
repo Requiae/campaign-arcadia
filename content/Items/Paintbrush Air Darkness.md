@@ -2,7 +2,7 @@
 title: Paintbrush of Air and Darkness
 tags:
   - Item
-  - Murrey
+  - Murray
   - Magic-Item
   - Attunement
 ---
