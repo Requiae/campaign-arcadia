@@ -13,30 +13,30 @@ prioritise: true
 >
 > > [!tip] Biographical information
 >
-> |          |                      |
-> | -------- | -------------------- |
-> | Species  | Warforged            |
-> | Gender   | Non-binary (they/them)     |
-> | Age      | 10?                  |
-> | Birthday | Unknown    |
+> |          |                        |
+> | -------- | ---------------------- |
+> | Species  | Warforged              |
+> | Gender   | Non-binary (they/them) |
+> | Age      | 10?                    |
+> | Birthday | Unknown                |
 >
 > > [!bug] Relations
 >
-> |           |                            |
-> | --------- | -------------------------- |
-> | Relatives | [[Headmaster Pharos]] (creator)|
-> |           | The Siblings (siblings)    |
-> | Factions  | Lighthouse University      |
-> | | Arcadian Revivalists |
+> |           |                                 |
+> | --------- | ------------------------------- |
+> | Relatives | [[Headmaster Pharos]] (creator) |
+> |           | The Siblings (siblings)         |
+> | Factions  | Lighthouse University           |
+> |           | Arcadian Revivalists            |
 >
 > > [!example] Details
 >
-> |       |                 |
-> | ----- | --------------- |
-> | Class | Knowledge Cleric|
-> | Jobs  | Healer          |
-> |       | Engineer        |
-> |       | Academic        |
+> |       |                  |
+> | ----- | ---------------- |
+> | Class | Knowledge Cleric |
+> | Jobs  | Healer           |
+> |       | Engineer         |
+> |       | Academic         |
 
 View [[Letters to the Headmaster]] instead.
 

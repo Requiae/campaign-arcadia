@@ -10,7 +10,7 @@ This journal is written by [[Cal]].
 > [!note]- Letter 1
 > Most Exalted Headmaster,
 >
-> It is with great joy I inform you that I have located the castaway expedition of Luxians. They have made their way to the city of Aeqen, and are currently based there. 
+> It is with great joy I inform you that I have located the castaway expedition of Luxians. They have made their way to the city of Aeqen, and are currently based there.
 >
 > Nominally, their mission is of Archaeological nature, for they were sent here to find evidence of the Luxian religion. Apparently, the revered ancestor Usen appears in their legends too, and has a connection to their goddess Ashling. However, now that they are on Arcadia the expedition is having trouble working towards its goals. The crew suffers from the curse of nightmares and memory loss (though did not seem receptive to my suggestion that they be Converted).
 >
