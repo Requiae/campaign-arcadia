@@ -38,6 +38,8 @@ prioritise: true
 > |       | Engineer        |
 > |       | Academic        |
 
+View [[Letters to the Headmaster]] instead.
+
 ## Backstory
 
 Cal was created, as all their siblings were, by [[Headmaster Pharos]]. They don’t have many memories of being a living person, and attach little sentimentality to the fact they were once a person. After conversion, they spent their time in mandatory education, specializing themselves in engineering and the natural sciences. An important part of this was learning of all the Great People who contributed to scientific knowledge, and thanks to this Cal gained a deep reverence for the Ancestors.
