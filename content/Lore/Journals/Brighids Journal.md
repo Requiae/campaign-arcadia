@@ -253,7 +253,7 @@ This journal is written by [[Brighid]].
 > >
 > > Dinner almost was an absolute disaster, those guards do not know how to cook, praise be to Murray for saving our dinner. Currently I'm sitting a bit away from the edge of the forest to 'let Molly graze', in reality we're going to ditch the squad and continue our chase. We'll leave before first light.
 
-> [!summary]+ Down into the Mountains Deep
+> [!summary]- Down into the Mountains Deep
 >
 > > [!note]+ 18th
 > >
@@ -268,3 +268,13 @@ This journal is written by [[Brighid]].
 > > [!example]+ Dream
 > >
 > > My nightmares seem to be changing. They are a lot more vivid than they were before, and they also show a lot more options than before. I still get the nightmares about killing my sister in a draconic rampage, but I also get the dream of the kobolds trying to awake me, and many more visions I can scarce remember. However all of them have one thing in common, I have fully become a dragon. Even in the dreams where I look like my elven self before my kidnapping, I just feel, no.. I know that I'm a dragon in elven form there.
+>
+> > [!summary]+ 19th
+> >
+> > Whose bright idea was it to sleep next to a running train station?
+> >
+> > Shortly after breakfast [[William|Bill]] and [[Hanford]] left taking Molly back to [[Aeqen City|Aeqen]] and as the remaining squad we went boating back to the cave entrance. The river slowly flowed from a cave in the mountain and we followed it inside, rowing through the darkness. As the cave was becoming more narrow the river also sped up, making it more difficult to continue, however shortly after the change became noticeable we chanced upon a small beach. The canoe tracks on the beach spoke volumes, our quarry likely passed through here.
+> >
+> > The beach had a small tunnel leading deeper into the mountains which was our only way to continue, so we entered. The tunnel seemed well used, there were some water bottles littered here and there. After a while the tunnel opened up into a larger room that was a lot warmer and more humid than the tunnel we had been travelling so far. The room was filled with crop lines of mushrooms and mosses, although the colours were quite odd it would seem at least some of them are edible. Aside from a few more tunnels like the one we just came from, there was also a larger road leading into a large cave. We opted to follow the road which was heavily worn and it had become impossible to follow any individual track. At some point we came across a crossroads with an Arcadian sign. We just came from the farms, to the left and right would be a ring road, and if we continue forwards we would end up in Arcadia. The road to [[Arcadia City]] was in the best condition with barely any tracks, the airflow we had felt up to this point seemed to come from the left so an exit into the mountains would likely be over there. Assuming the drow were likely not with the giants we headed to the right. And while walking I got philosophical why the drow would even care about [[Duchies of An Eilbheis|Fenlamin]] but nothing useful came of that.
+> >
+> > We came across multiple similar crossroads until we found one where the road leading to Arcadia City was quite heavily travelled and we were also hearing some muffled city noises coming from that direction. Dimming our lights and handing [[Murray]] a covered stone enchanted with light we carefully headed in the direction of the noises. Eventually we started to feel the disturbing buzzing from Arcadia and right about the same moment we found an opening in the tunnel to our right, through the opening we saw a river leading into a large village. All the noise we were hearing also came from this outpost. We also spotted several guards stationed outside.
