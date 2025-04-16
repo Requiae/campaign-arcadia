@@ -11,7 +11,7 @@ These chronicles are written by [[Sahiusa]]
 >
 > > [!note]+ Day 1: (3-5)
 > >
-> > Cast off at Limani.
+> > Cast off at [[Limani]].
 >
 > > [!note]+ Day 7: (9-5)
 > >
