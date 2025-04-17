@@ -246,7 +246,7 @@ This journal is written by [[Brighid]].
 > >
 > > Dinner almost was an absolute disaster, those guards do not know how to cook, praise be to Murray for saving our dinner. Currently I'm sitting a bit away from the edge of the forest to 'let Molly graze', in reality we're going to ditch the squad and continue our chase. We'll leave before first light.
 
-> [!summary]+ Down into the Mountains Deep
+> [!summary]- Down into the Mountains Deep
 >
 > > [!note]+ 18th
 > >
@@ -260,9 +260,9 @@ This journal is written by [[Brighid]].
 >
 > > [!example]+ Dream
 > >
-> > My nightmares seem to be changing. They are a lot more vivid than they were before, and they also show a lot more options than before. I still get the nightmares about killing my sister in a draconic rampage, but I also get the dream of the kobolds trying to awake me, and many more visions I can scarce remember. However all of them have one thing in common, I have fully become a dragon. Even in the dreams where I look like my elven self before my kidnapping, I just feel, no.. I know that I'm a dragon in elven form there.
+> > My nightmares seem to be changing. They are a lot more vivid than they were before, and they also show a lot more options than before. I still get the nightmares about killing my sister in a draconic rampage, but I also get the dream of the kobolds trying to awake me, and many more visions I can scarce remember. However all of them have one thing in common, I have fully become a dragon. Even in the dreams where I look like my elven self before my kidnapping, I just feel, no.. I know that I'm a dragon in elven form there. I am unsure whether the change is due to the [[The Curse|curse]], our supposed proximity to [[Genesis Myth|Ashling]], or my increasing acceptance of me becoming a dragon. Speaking of, why am I suddenly so okay with the idea of becoming a dragon?
 >
-> > [!summary]+ 19th
+> > [!note]+ 19th
 > >
 > > Whose bright idea was it to sleep next to a running train station?
 > >
@@ -274,6 +274,26 @@ This journal is written by [[Brighid]].
 > >
 > > The city is located in a large cavern with a pillar supporting the ceiling in the middle, a castle hewn into that very pillar. There are a lot of inhabitants, by far the most we have seen on [[The Island|the island]] up to this point, it would probably even rival [[Limani]]. The people we could see were almost exclusively drow, with some either very handsome or very beautiful [[The Curse|Accursed]], quite clearly partners for pleasurable purposes only. We are shown the hotel where we're supposed to stay, aptly named [[Dur Ovdal#The Hotel|The Hotel]] before being taken to the [[Dur Ovdal#Spelunkers Guild|Spelunkers Guild]].
 > >
-> > At the guild we learn several things about both the island and Arcadia city. Apparently the east of the island was hit the hardest by the calamity. In the city itself there are very few corpses, a few of which are animated. There is a large amount of magic that has a corrupting and withering effect in Arcadia City and the people of Dur Ovdal have fashioned lodestones that can protect the bearer for a short while. Deeper into the city there are horrible corrupted and malformed creatures. The city itself is labyrinthine, warped by the magic that fills it. Said magic seems to be coming from deep down. Aside from their knowledge the people of Dur Ovdal have no new knowledge about the calamity, in fact we already have more clues than they do. After our in depth discussion about Arcadia we also learned some more about Dur Ovdal itself.
+> > At the guild we learn several things about both the island and Arcadia city. Apparently the east of the island was hit the hardest by the calamity. In the city itself there are very few corpses, a few of which are animated. There is a large amount of magic that has a corrupting and withering effect in Arcadia City and the people of Dur Ovdal have fashioned [[Lodestone|lodestones]] that can protect the bearer for a short while. Deeper into the city there are horrible corrupted and malformed creatures. The city itself is labyrinthine, warped by the magic that fills it. Said magic seems to be coming from deep down. Aside from their knowledge the people of Dur Ovdal have no new knowledge about the calamity, in fact we already have more clues than they do. After our in depth discussion about Arcadia we also learned some more about Dur Ovdal itself.
 > >
 > > We got a hearty brunch for dinner, the textures were odd but the taste was quite good. [[Murray]] still has them beat though. The hotel is actually rather small. I told the clerk that there was no need for their customer service smile and to be at ease and we were shown into an apartment that we will be allowed to use during our stay here. The beds are hammocks and it seems that they have some sort of baths. Murray made sure that we are not actively being observed using his magic vision. While there is some detection in the hallway there is nothing in the apartment itself. And while the passport is easily scryable, there is no magic observing us. I'll take a quick bath before heading to bed.
+>
+> > [!note]+ 20th
+> >
+> > Getting dinner for breakfast is a bit heavy on the stomach, well, not that I'm really complaining but my [[Sahiusa|my sister]] had a face that suggested otherwise. Anyhow, we split up to look for any clues on [[Duchies of An Eilbheis|Fenlamin]]. We didn't find him, not any cognisant [[The Curse|Accursed]] for that matter. I did find Mort who had completely forgotten his task of sniffing out Fenlamin however. He owes me one for keeping quiet how distracted he was by the food some drow gave him. While searching I also wondered whether there were any magic shops, however it seems that magic is only allowed for the [[Queen Tamar|Queen]], her council, and specific producers such as those that make the [[Lodestone|lodestones]], so no dice.
+> >
+> > We came together for lunch and discussed how none of us managed to find any useful information. Annoyed by our lack of progress I figured why not ask a guard where I can get myself a sex slave, so I did, but I did ask for one of those obedient concubines We have occasionally seen instead. Turns out, they are property of the Queen and every Accursed we have seen was gifted to the owner by her. Not a group to sit idle, we immediately tried to get an audience, which, much to my surprise, we almost immediately got. I had expected to be told to make an appointment. We were escorted to the salon and were told about [[Dur Ovdal]]'s history and the [[Queens of Dur Ovdal]] while waiting.
+> >
+> > The meeting itself also went a lot better than expected, although I quickly learned why she has the denomination of the Silvertongued. They have Fenlamin, but they'll want us to first do something for them. The Queen left to ask her council for advice and returned shortly after together with an adviser. The fish of [[Rana]] are digging for some powerful artefact in the [[content/Arcadia/Warmwood/Sunken Marshes]] in order to fuel some sort of ritual. Our job is to find and retrieve the artefact. After the Queen left the adviser filled us in on the details. There are three dig sites where they are digging.
+> >
+> > Dinner was actual dinner, with a huge drow style steak and something that resembled mashed vegetables. The portobello with moss wasn't great, but better than the stuffed rat from this morning.
+
+> [!summary]+ Frogs in the Marshes
+>
+> > [!note]+ 21st
+> >
+> > The day was spend travelling through the mountains. A scout guided us to the river exit closest to the [[Sunken Marshes|marshes]]. We ended up setting up camp a bit early so we would not have to do so directly after entering the swamps.
+>
+> > [!note]+ 22nd
+> >
+> > Today was one hell of day, the night was as chaotic as can be. We spend most of the time paddling through the marshes before finding old dilapidated ruins similar to the [[Walled Garden]]. The ruins were protected by those [[Rana|frogs]]. We decided to wait for night time and sneak in, leaving [[Sahiusa]] to guard our camp. [[Murray]] got spotted, he pretended to be a rock, failed, and ended up mud wrestling a frog guard. I killed the other while he was at it. After the initial fight was done we resumed plan 'stealth'. I blew up part of the wall as an distraction, killing some hapless frogs in the process. Murray ran into the excavation tent in the middle while the guards were distracted. He took too long and eventually one of the frogs in armour went to check on the excavation tent. More destruction ensued to ensure Murray was able to flee and we returned to camp to rest.6
