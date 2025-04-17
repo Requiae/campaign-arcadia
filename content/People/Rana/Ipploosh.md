@@ -1,5 +1,5 @@
 ---
-title: Archpriest Iploosh
+title: Archpriest Ipploosh
 tag:
   - Rana
 prioritise: true

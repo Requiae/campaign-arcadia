@@ -107,7 +107,7 @@ This journal is written by [[Brighid]].
 > >
 > > This day we headed east, towards the town of [[Rana]] populated mostly by frogmen and fishfolk. We were almost immediately given an escort and only shown around the good parts of town. A few comments were made here and there and it quickly became clear that there was something they were not telling us. Anyhow, we were here for tools and while they were clearly trying to rip us off, we ended up paying the normal price for them. Our escort really wanted to show us their temple so we went to the destroyed harbour, apparently the goblins down south are pirates and like to play with explosives.
 > >
-> > At this point [[Murray]] sent Mort to investigate the town, something felt horribly awry. At the temple we met [[Iploosh|Archpriest Iploosh]] who accidentally ended up spilling their aim of enslaving people. I got sick and decided to leave quickly. Upon leaving we were given a cart, and once we were no longer visible from town I discovered their goal of tracking us by means of the cart, we sabotaged this plan and took the cart with us.
+> > At this point [[Murray]] sent Mort to investigate the town, something felt horribly awry. At the temple we met [[Ipploosh|Archpriest Iploosh]] who accidentally ended up spilling their aim of enslaving people. I got sick and decided to leave quickly. Upon leaving we were given a cart, and once we were no longer visible from town I discovered their goal of tracking us by means of the cart, we sabotaged this plan and took the cart with us.
 >
 > > [!example]+ Dream
 > >

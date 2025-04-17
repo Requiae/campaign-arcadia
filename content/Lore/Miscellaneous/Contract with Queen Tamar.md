@@ -7,7 +7,7 @@ tags:
 
 In your hands you hold the fine parchment. Swirly linework subtly shows elven descent in whatever the handwriting form of an accent is. The ink is coal-black and the parchment is perfumed with an earthy, musky scent. You start reading.
 
-> [!note|noicon-notitle] Contract
+> [!note|noicon-notitle]
 >
 > This document concerns and describes the formal cooperation between two parties. The queendom of [[Dur Ovdal]], represented by [[Queen Tamar|Queen Tamar sil Dur Ovdal]], after this named "Queen". And the organization of travelers [[Brighid|Brighid Pavet]], [[Sahiusa|Sahiusa Pavet]] and [[Murray]] , after this named "Party". The two parties declare the following.
 >
