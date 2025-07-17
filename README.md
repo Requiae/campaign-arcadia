@@ -12,13 +12,7 @@ The modifier version can be found [here](https://github.com/Requiae/quartz-modul
 
 ### Install dependencies
 
-First you have to initialise the submodules
-
-```
-git submodule update --init
-```
-
-And then you can install all the node dependencies
+Install all the node dependencies
 
 ```
 npm install

@@ -4,12 +4,12 @@ tags:
   - Dryads
   - Warmwood
 marker:
-  mapName: Arcadia
-  x: 456
-  y: 548
-  minZoom: 1
-  icon: shield
-  colour: green
+  - mapName: Arcadia
+    x: 456
+    y: 548
+    minZoom: 1
+    icon: mdi:sword-cross
+    colour: green
 ---
 
 A wooden stockade manned by dryads and other fae, led by the tough and seasoned [[Oakleaf|commander Oakleaf]].
