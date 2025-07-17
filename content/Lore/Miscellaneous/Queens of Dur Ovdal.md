@@ -9,4 +9,4 @@ tags:
 2. Ahlia "the Fair"
 3. Nahul "the Gracious Judge"
 4. Tekla "the Protector"
-5. Tamar "the Silvertongued" sil Dur Ovdal (Current queen)
+5. [[Queen Tamar|Tamar]] "the Silvertongued" sil Dur Ovdal (Current queen)
