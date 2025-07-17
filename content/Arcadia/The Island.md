@@ -15,6 +15,11 @@ Similar notes:
 - [[Arcadia City|The city of Arcadia]]
 - [[Arcadia Central|Arcadia Central Station]]
 
+## Map
+
+> [!map|minZoom:0-maxZoom:2] Arcadia
+> ![[assets/img/arcadia.png]]
+
 ## The underground train network
 
 ![[assets/img/arcadia_underground.png]]
