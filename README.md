@@ -39,3 +39,13 @@ npm run serve
 ## Custom CSS
 
 We make use of the same css [this wiki](https://morrowind-modding.github.io/contributing/custom-formatting-features) uses.
+
+## Quartz changes
+
+- Custom sort function for the explorer
+  - Requires frontmatter to be added to `ContentDetails`, explained [here](https://draftz.felixnie.com/Digital-Garden/Sorting-Objects-in-Explorer#add-frontmatter-back)
+
+## Other quartz stuff that might be useful
+
+- https://github.com/quartz-community/awesome-quartz
+- https://quartz.eilleeenz.com/Quartz-Snippets#removing-the-fade-omg
