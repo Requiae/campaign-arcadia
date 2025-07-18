@@ -13,7 +13,7 @@ Similar notes:
 
 - [[Ancient Arcadia|The ancient civilisation of Arcadia]]
 - [[Arcadia City|The city of Arcadia]]
-- [[Arcadia Central|Arcadia Central Station]]
+- [[Arcadia Central Station]]
 
 ## Map
 

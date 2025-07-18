@@ -88,7 +88,7 @@ These chronicles are written by [[Sahiusa]]
 >
 > > [!note]+ Day 78: (8-8)
 > >
-> > Today the party left for the west. Not long after setting off we encountered a [[Walled Garden|walled garden]] in arcadian style. We decided to travel together with a halfling trade caravan we encountered there.
+> > Today the party left for the west. Not long after setting off we encountered a [[Western Walled Garden|walled garden]] in arcadian style. We decided to travel together with a halfling trade caravan we encountered there.
 > > A trip full of halfling cooking wisdom later we arrived at a [[Aeqen City|large arcadian city]]. The city was entirely isolated, except for a small trade post. We talked to the overseer, who we found out went by the name [[Hamon]] Aeqenmar, a Luxian name.
 > > Upon further questioning we found he had no knowledge of being luxian, and he was seemingly unaffected by the curse. The prevailing theory about this is that he was born here, but his parents are Luxian. Learning that our party was also Luxian he invited us into the city. It seems he is the only reasonable inhabitant, living there together with a group of about 20 mindless cursed. He showed us a glimpse of how the city operates. Automatons sweeping the streets, charging stations refilling the magic inside the gems and to brighid's delight a relatively well maintained bathhouse. Hamon also mentioned that the language of these people would automatically change to the language of the reader, that most of the texts he had found were fictional and that a large spire in the middle of the city was well protected and could house some knowledge about what happened. We have decided that would be our aim for tomorrow.
 

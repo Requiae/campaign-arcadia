@@ -3,6 +3,12 @@ title: Dur Ovdal
 tags:
   - Dur-Ovdal
   - The-Spine
+marker:
+  - mapName: Arcadia
+    x: 450
+    y: 360
+    icon: mdi:bank
+    colour: yellow
 ---
 
 The city is located deep within [[content/Arcadia/The Spine/index|the Spine]] and is home to around 60000 people, of which a few thousands are [[The Curse|Accursed]]. It was founded by Madea sil Dur Ovdal the Great Conqueror and subsequently ruled by the [[Queens of Dur Ovdal]]. The current monarch is Queen Tamar sil Dur Ovdal the Silvertongued.
